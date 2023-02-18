@@ -16,7 +16,11 @@ const appName =
 
 const config = app.node.tryGetContext(env) as NextCloudFrontTemplateStackConfig;
 
-nextJsExport();
+const apiUrl = app.node.tryGetContext('apiUrl');
+
+nextJsExport({
+  apiUrl,
+});
 
 new NextCloudFrontTemplateStack(app, `${appName}-stack`, {
   appName,

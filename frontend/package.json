@@ -14,30 +14,45 @@
     "lint": "pnpm format-check && pnpm check",
     "lint-fix": "pnpm format && pnpm check-fix",
     "clean": "rimraf build",
+    "generate": "graphql-codegen --config codegen.yml",
     "pretest": "pnpm build",
     "prelint": "pnpm install",
     "prelint-fix": "pnpm install",
     "prebuild": "pnpm lint",
     "preexport": "pnpm build",
     "predev": "pnpm install",
+    "pregenerate": "pnpm install",
+    "postgenerate": "pnpm build",
     "all": "pnpm build && pnpm export"
   },
   "dependencies": {
-    "@next/font": "^13",
+    "@apollo/client": "*",
+    "@next/font": "*",
     "@types/node": "*",
     "@types/react": "*",
-    "next": "^13",
+    "graphql": "*",
+    "next": "*",
     "react": "*",
     "react-dom": "*",
     "typescript": "*",
     "web-vitals": "*"
   },
   "devDependencies": {
+    "@graphql-codegen/cli": "*",
+    "@graphql-codegen/client-preset": "*",
+    "@graphql-codegen/typescript-msw": "*",
+    "@graphql-codegen/typescript-react-apollo": "*",
+    "@graphql-typed-document-node/apollo-client-3": "*",
+    "@graphql-typed-document-node/core": "*",
     "@swc/cli": "*",
     "@swc/core": "*",
     "@swc/helpers": "*",
+    "msw": "*",
     "regenerator-runtime": "*",
     "rimraf": "*",
     "rome": "*"
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }
