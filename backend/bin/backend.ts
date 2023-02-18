@@ -6,16 +6,12 @@ import { BackendStack } from '../lib/backend-stack';
 const app = new cdk.App();
 
 const parameterName = app.node.tryGetContext('parameterName');
-const clientId = app.node.tryGetContext('clientId');
-const clientSecret = app.node.tryGetContext('clientSecret');
+const bucketName = app.node.tryGetContext('s3bucketName');
 
 const appName = 'next-github-auth-ssg-example';
 
 new BackendStack(app, `${appName}-backend-stack`, {
   appName,
   parameterName,
-  githubOauth: {
-    clientId,
-    clientSecret,
-  },
+  bucketName,
 });

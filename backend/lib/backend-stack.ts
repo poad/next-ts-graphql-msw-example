@@ -5,26 +5,22 @@ import * as lambda from 'aws-cdk-lib/aws-lambda';
 import * as nodejs from 'aws-cdk-lib/aws-lambda-nodejs';
 import * as awslogs from 'aws-cdk-lib/aws-logs';
 import * as ssm from 'aws-cdk-lib/aws-ssm';
+import * as s3 from 'aws-cdk-lib/aws-s3';
 import { Construct } from 'constructs';
 
 interface BackendStackProps extends cdk.StackProps {
   appName: string;
   parameterName: string;
-  githubOauth: {
-    clientId: string;
-    clientSecret: string;
-  };
+  bucketName: string;
 }
 
 export class BackendStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props: BackendStackProps) {
     super(scope, id, props);
 
-    const {
-      appName,
-      parameterName,
-      githubOauth: { clientId, clientSecret },
-    } = props;
+    const { appName, parameterName, bucketName } = props;
+
+    const bucket = s3.Bucket.fromBucketName(this, 'StoreBucket', bucketName);
 
     const functionName = `${appName}-api`;
     const logs = new awslogs.LogGroup(this, 'LogGroup', {
@@ -42,8 +38,8 @@ export class BackendStack extends cdk.Stack {
       environment: {
         LOG_LEVEL: 'info',
         NODE_OPTIONS: '–enable-source-maps',
-        GITHUB_OAUTH_CLIENT_ID: clientId,
-        GITHUB_OAUTH_CLIENT_SECRET: clientSecret,
+        S3_BUCKET_NAME: bucketName,
+        S3_OBJECT_KEY: 'pokemon.json',
       },
       bundling: {
         minify: true,
@@ -63,6 +59,15 @@ export class BackendStack extends cdk.Stack {
                 effect: iam.Effect.ALLOW,
                 actions: ['logs:CreateLogStream', 'logs:PutLogEvents'],
                 resources: [`${logs.logGroupArn}:*`],
+              }),
+            ],
+          }),
+          's3-access-policy': new iam.PolicyDocument({
+            statements: [
+              new iam.PolicyStatement({
+                effect: iam.Effect.ALLOW,
+                actions: ['s3:*'],
+                resources: [bucket.bucketArn, `${bucket.bucketArn}/*`],
               }),
             ],
           }),
