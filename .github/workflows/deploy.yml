@@ -98,7 +98,7 @@ jobs:
       working-directory: backend
       run: |
         cdk deploy \
-          -c appkName=${{ env.APP_NAME }} \
+          -c appName=${{ env.APP_NAME }} \
           -c s3bucketName=${{ env.S3_BUCKET_NAME }} \
           -c parameterName=${{ env.API_ENDPOINT_URL_PARAM }}
 
@@ -113,5 +113,5 @@ jobs:
       working-directory: frontend/cdk
       run: |
         cdk deploy \
-          -c appkName=${{ env.APP_NAME }} \
+          -c appName=${{ env.APP_NAME }} \
           -c apiUrl=${{ steps.get-param.outputs.value }}
