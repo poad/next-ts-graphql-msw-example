@@ -7,8 +7,7 @@ const app = new cdk.App();
 
 const parameterName = app.node.tryGetContext('parameterName');
 const bucketName = app.node.tryGetContext('s3bucketName');
-
-const appName = 'next-github-auth-ssg-example';
+const appName = app.node.tryGetContext('appName');
 
 new BackendStack(app, `${appName}-backend-stack`, {
   appName,
