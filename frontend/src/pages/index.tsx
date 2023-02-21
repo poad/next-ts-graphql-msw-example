@@ -30,7 +30,9 @@ const Pokemons = (): JSX.Element => {
     <main className={styles.main}>
       {data?.list.map((pokemon) => (
         <div className={styles.grid}>
-          <p key={`${pokemon.id}-name`} className={inter.className}>{pokemon.name}</p>
+          <p key={`${pokemon.id}-name`} className={inter.className}>
+            {pokemon.name}
+          </p>
         </div>
       ))}
     </main>

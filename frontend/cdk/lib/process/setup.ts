@@ -22,6 +22,8 @@ export const nextJsExport = ({
     });
   });
 
+  console.log(apiUrl);
+
   ['pnpm all'].forEach((cmd) => {
     childProcess.execSync(cmd, {
       cwd: `${process.cwd()}/../`,
