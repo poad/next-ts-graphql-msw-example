@@ -10,8 +10,9 @@ on:
 env:
   OIDC_IAM_ROLE_ARN: ${{ secrets.OIDC_IAM_ROLE_ARN }}
   AWS_REGION: us-west-2
-  APP_NAME: next-ts-cloudfront-ssg-with-backend-template
-  API_ENDPOINT_URL_PARAM: /next-ts-cloudfront-ssg-with-backend-template/API_ENDPOINT
+  APP_NAME: next-ts-graphql-msw-example
+  API_ENDPOINT_URL_PARAM: /next-ts-graphql-msw-example/API_ENDPOINT
+  S3_BUCKET_NAME: trpc-example-batch-data
 
 permissions:
   id-token: write
@@ -97,7 +98,8 @@ jobs:
       working-directory: backend
       run: |
         cdk deploy \
-          -c appkName=${{ env.APP_NAME }}\
+          -c appkName=${{ env.APP_NAME }} \
+          -c s3bucketName=${{ env.S3_BUCKET_NAME }} \
           -c parameterName=${{ env.API_ENDPOINT_URL_PARAM }}
 
     - name: Get Parameters
@@ -111,5 +113,5 @@ jobs:
       working-directory: frontend/cdk
       run: |
         cdk deploy \
-          -c appkName=${{ env.APP_NAME }}\
+          -c appkName=${{ env.APP_NAME }} \
           -c apiUrl=${{ steps.get-param.outputs.value }}
