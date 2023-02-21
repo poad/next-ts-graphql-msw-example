@@ -10,13 +10,18 @@ import { nextJsExport } from '../lib/process/setup';
 const app = new cdk.App();
 
 const env = app.node.tryGetContext('env');
-const appName =
-  app.node.tryGetContext('appName') ||
-  `${env ? `${env}-` : ''}next-cloudfront-template`;
+const name = app.node.tryGetContext('appName')
+if (!name) {
+  throw new Error('appName be not null')
+}
+const appName = `${env ? `${env}-` : ''}${name}`;
 
 const config = app.node.tryGetContext(env) as NextCloudFrontTemplateStackConfig;
 
 const apiUrl = app.node.tryGetContext('apiUrl');
+if (!apiUrl) {
+  throw new Error('apiUrl be not null')
+}
 
 nextJsExport({
   apiUrl,
