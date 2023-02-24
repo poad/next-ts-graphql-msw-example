@@ -85,7 +85,7 @@ importers:
       '@graphql-codegen/typescript-react-apollo': '*'
       '@graphql-typed-document-node/apollo-client-3': '*'
       '@graphql-typed-document-node/core': '*'
-      '@next/font': '*'
+      '@next/font': ^13
       '@swc/cli': '*'
       '@swc/core': '*'
       '@swc/helpers': '*'
@@ -93,7 +93,7 @@ importers:
       '@types/react': '*'
       graphql: '*'
       msw: '*'
-      next: '*'
+      next: ^13
       react: '*'
       react-dom: '*'
       regenerator-runtime: '*'

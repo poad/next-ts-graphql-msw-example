@@ -15,12 +15,10 @@ const endpoint = process.env.NEXT_PUBLIC_API_URL || '';
 
 const link = createHttpLink({
   uri: endpoint,
-  credentials: 'same-origin',
 });
 
 const client = new ApolloClient({
   link,
-  uri: endpoint,
   cache: new InMemoryCache(),
 });
 

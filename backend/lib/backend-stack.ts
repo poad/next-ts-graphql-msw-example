@@ -76,8 +76,8 @@ export class BackendStack extends cdk.Stack {
     });
 
     const api = new apigateway.RestApi(this, 'APIGateway', {
-      restApiName: 'GitHub OAuth API',
-      description: 'API for GitHub OAuth',
+      restApiName: 'GraphQL API',
+      description: 'GraphQL API for msw example',
       deployOptions: {
         stageName: 'default',
       },
@@ -90,8 +90,10 @@ export class BackendStack extends cdk.Stack {
         allowHeaders: apigateway.Cors.DEFAULT_HEADERS,
         allowCredentials: true,
         disableCache: true,
-        statusCode: 204,
+        statusCode: 200,
       },
+      cloudWatchRole: true,
+      endpointExportName: 'grapgql',
     });
 
     api.deploymentStage.urlForPath('/');

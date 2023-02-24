@@ -1,9 +1,12 @@
 import { ApolloServer } from '@apollo/server';
 import {
+  ApolloServerPluginLandingPageLocalDefault,
+  ApolloServerPluginLandingPageProductionDefault,
+} from '@apollo/server/plugin/landingPage/default';
+import {
   startServerAndCreateLambdaHandler,
   handlers,
 } from '@as-integrations/aws-lambda';
-import { GetObjectCommand, S3Client } from '@aws-sdk/client-s3';
 import {
   APIGatewayProxyEvent,
   APIGatewayProxyResult,
@@ -11,7 +14,6 @@ import {
   Context,
 } from 'aws-lambda';
 import * as log4js from 'log4js';
-import { GraphQLError } from 'graphql';
 import schemaWithResolvers from './schema';
 
 log4js.configure({
@@ -28,6 +30,11 @@ const server = new ApolloServer({
   schema,
   introspection: true,
   logger,
+  plugins: [
+    process.env.NODE_ENV === 'production'
+      ? ApolloServerPluginLandingPageProductionDefault()
+      : ApolloServerPluginLandingPageLocalDefault({ embed: false }),
+  ],
 });
 
 export async function handler(

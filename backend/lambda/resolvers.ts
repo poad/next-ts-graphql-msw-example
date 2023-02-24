@@ -1,9 +1,6 @@
 import { S3Client, GetObjectCommand } from '@aws-sdk/client-s3';
 import { GraphQLError } from 'graphql';
-import * as log4js from 'log4js';
 import { Pokemon, Resolvers } from './generated/graphql';
-
-const logger = log4js.getLogger();
 
 const S3_BUCKET_NAME = process.env.S3_BUCKET_NAME as string;
 const S3_OBJECT_KEY = process.env.S3_OBJECT_KEY as string;

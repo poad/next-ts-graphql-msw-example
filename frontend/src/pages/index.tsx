@@ -27,7 +27,7 @@ const Pokemons = (): JSX.Element => {
   }
 
   return (
-    <main className={styles.main}>
+    <main className={styles.main} style={{ minHeight: '100vh' }}>
       {data?.list.map((pokemon) => (
         <div className={styles.grid}>
           <p key={`${pokemon.id}-name`} className={inter.className}>

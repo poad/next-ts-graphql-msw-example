@@ -27,11 +27,11 @@
   },
   "dependencies": {
     "@apollo/client": "*",
-    "@next/font": "*",
+    "@next/font": "^13",
     "@types/node": "*",
     "@types/react": "*",
     "graphql": "*",
-    "next": "*",
+    "next": "^13",
     "react": "*",
     "react-dom": "*",
     "typescript": "*",
