@@ -48,6 +48,20 @@ export class BackendStack extends cdk.Stack {
         sourcesContent: true,
         keepNames: true,
         target: 'node18',
+        commandHooks: {
+          beforeInstall(): string[] {
+            return [''];
+          },
+          beforeBundling(): string[] {
+            return [''];
+          },
+          afterBundling(inputDir: string, outputDir: string): string[] {
+            return [
+              // スキーマ定義を追加
+              `cp ${inputDir}/../schema.graphqls ${outputDir}`,
+            ];
+          },
+        },
       },
       role: new iam.Role(this, 'LambdaFunctionRole', {
         roleName: `${functionName}-role`,
