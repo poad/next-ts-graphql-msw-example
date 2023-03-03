@@ -58,7 +58,7 @@ export class BackendStack extends cdk.Stack {
           afterBundling(inputDir: string, outputDir: string): string[] {
             return [
               // スキーマ定義を追加
-              `cp ${inputDir}/../schema.graphqls ${outputDir}`,
+              `cp ${inputDir}/../../schema.graphqls ${outputDir}`,
             ];
           },
         },
