@@ -35,6 +35,7 @@ export class BackendStack extends cdk.Stack {
       architecture: lambda.Architecture.ARM_64,
       entry: './lambda/index.ts',
       retryAttempts: 0,
+      timeout: cdk.Duration.seconds(29),
       environment: {
         LOG_LEVEL: 'info',
         NODE_OPTIONS: '–enable-source-maps',
@@ -58,7 +59,7 @@ export class BackendStack extends cdk.Stack {
           afterBundling(inputDir: string, outputDir: string): string[] {
             return [
               // スキーマ定義を追加
-              `cp ${inputDir}/../../schema.graphqls ${outputDir}`,
+              `cp ${inputDir}/schema.graphqls ${outputDir}`,
             ];
           },
         },
