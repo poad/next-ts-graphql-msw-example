@@ -43,7 +43,7 @@
     "@graphql-codegen/typescript-msw": "*",
     "@graphql-codegen/typescript-react-apollo": "*",
     "@graphql-typed-document-node/apollo-client-3": "*",
-    "@graphql-typed-document-node/core": "*",
+    "@graphql-typed-document-node/core": "~3.1",
     "@swc/cli": "*",
     "@swc/core": "*",
     "@swc/helpers": "*",
