@@ -92,6 +92,7 @@ jobs:
     - name: deploy (cdk)
       working-directory: backend
       run: |
+        pnpm -r install --no-frozen-lockfile && \
         cdk deploy \
           -c appName=${{ env.APP_NAME }} \
           -c s3bucketName=${{ env.S3_BUCKET_NAME }} \
@@ -107,6 +108,7 @@ jobs:
     - name: deploy (frontend)
       working-directory: frontend/cdk
       run: |
+        pnpm -r install --no-frozen-lockfile && \
         cdk deploy \
           -c appName=${{ env.APP_NAME }} \
           -c apiUrl=${{ steps.get-param.outputs.value }}

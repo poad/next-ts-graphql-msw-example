@@ -20,20 +20,20 @@
     "prebuild": "pnpm lint"
   },
   "devDependencies": {
-    "@swc/cli": "*",
-    "@swc/core": "*",
-    "@swc/helpers": "*",
-    "@types/node": "*",
-    "aws-cdk": "*",
-    "regenerator-runtime": "*",
-    "rome": "*",
-    "ts-node": "*",
-    "typescript": "*"
+    "@swc/cli": "latest",
+    "@swc/core": "latest",
+    "@swc/helpers": "latest",
+    "@types/node": "latest",
+    "aws-cdk": "latest",
+    "regenerator-runtime": "latest",
+    "rome": "latest",
+    "ts-node": "latest",
+    "typescript": "latest"
   },
   "dependencies": {
-    "aws-cdk-lib": "*",
-    "constructs": "*",
-    "esbuild": "*",
-    "source-map-support": "*"
+    "aws-cdk-lib": "latest",
+    "constructs": "latest",
+    "esbuild": "latest",
+    "source-map-support": "latest"
   }
 }

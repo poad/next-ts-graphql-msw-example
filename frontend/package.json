@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next export",
+    "export": "next build",
     "start": "next start",
     "format-check": "rome format src",
     "format": "rome format --write src",
@@ -19,15 +19,13 @@
     "prelint": "pnpm install --no-frozen-lockfile",
     "prelint-fix": "pnpm install --no-frozen-lockfile",
     "prebuild": "pnpm lint",
-    "preexport": "pnpm build",
     "predev": "pnpm install",
     "pregenerate": "pnpm install --no-frozen-lockfile",
     "postgenerate": "pnpm build",
-    "all": "pnpm build && pnpm export"
+    "all": "pnpm build"
   },
   "dependencies": {
     "@apollo/client": "*",
-    "@next/font": "^13",
     "@types/node": "*",
     "@types/react": "*",
     "graphql": "*",
