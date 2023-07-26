@@ -22,7 +22,29 @@ updates:
       - poad
 
   - package-ecosystem: npm
-    directory: '/cdk/'
+    directory: '/backend/'
+    schedule:
+      interval: daily
+      timezone: Asia/Tokyo
+    allow:
+      - dependency-type: all
+    rebase-strategy: auto
+    assignees:
+      - poad
+
+  - package-ecosystem: npm
+    directory: '/frontend/'
+    schedule:
+      interval: daily
+      timezone: Asia/Tokyo
+    allow:
+      - dependency-type: all
+    rebase-strategy: auto
+    assignees:
+      - poad
+
+  - package-ecosystem: npm
+    directory: '/frontend/cdk/'
     schedule:
       interval: daily
       timezone: Asia/Tokyo
