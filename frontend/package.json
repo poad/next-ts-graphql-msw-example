@@ -41,7 +41,7 @@
     "@graphql-codegen/typescript-msw": "^1.1.6",
     "@graphql-codegen/typescript-react-apollo": "^3.3.7",
     "@graphql-typed-document-node/apollo-client-3": "^1.0.0",
-    "@graphql-typed-document-node/core": "~3.1.2",
+    "@graphql-typed-document-node/core": "~3.2.0",
     "@swc/cli": "^0.1.62",
     "@swc/core": "^1.3.71",
     "@swc/helpers": "^0.5.1",
