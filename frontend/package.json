@@ -36,7 +36,7 @@
     "web-vitals": "^3.4.0"
   },
   "devDependencies": {
-    "@graphql-codegen/cli": "^4.0.1",
+    "@graphql-codegen/cli": "^5.0.0",
     "@graphql-codegen/client-preset": "^4.1.0",
     "@graphql-codegen/typescript-msw": "^1.1.6",
     "@graphql-codegen/typescript-react-apollo": "^3.3.7",
