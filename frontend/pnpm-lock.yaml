@@ -1015,8 +1015,8 @@ packages:
       - supports-color
     dev: true
 
-  /@graphql-tools/delegate@10.0.0(graphql@16.7.1):
-    resolution: {integrity: sha512-ZW5/7Q0JqUM+guwn8/cM/1Hz16Zvj6WR6r3gnOwoPO7a9bCbe8QTCk4itT/EO+RiGT8RLUPYaunWR9jxfNqqOA==}
+  /@graphql-tools/delegate@10.0.1(graphql@16.7.1):
+    resolution: {integrity: sha512-WaubawRuK8pAOskUnkXJ9yA06SXODcSsBAeqXVxGuXoo2CXvj8JJRq9+TOj5Lm/MOm6CSVdsYfEDmvogMg9kgw==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
@@ -1328,7 +1328,7 @@ packages:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     dependencies:
       '@ardatan/sync-fetch': 0.0.1
-      '@graphql-tools/delegate': 10.0.0(graphql@16.7.1)
+      '@graphql-tools/delegate': 10.0.1(graphql@16.7.1)
       '@graphql-tools/executor-graphql-ws': 1.1.0(graphql@16.7.1)
       '@graphql-tools/executor-http': 1.0.2(@types/node@20.4.5)(graphql@16.7.1)
       '@graphql-tools/executor-legacy-ws': 1.0.1(graphql@16.7.1)
@@ -1385,7 +1385,7 @@ packages:
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     dependencies:
-      '@graphql-tools/delegate': 10.0.0(graphql@16.7.1)
+      '@graphql-tools/delegate': 10.0.1(graphql@16.7.1)
       '@graphql-tools/schema': 10.0.0(graphql@16.7.1)
       '@graphql-tools/utils': 10.0.4(graphql@16.7.1)
       graphql: 16.7.1
@@ -2224,7 +2224,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001518
-      electron-to-chromium: 1.4.479
+      electron-to-chromium: 1.4.480
       node-releases: 2.0.13
       update-browserslist-db: 1.0.11(browserslist@4.21.10)
 
@@ -2631,8 +2631,8 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: true
 
-  /electron-to-chromium@1.4.479:
-    resolution: {integrity: sha512-ABv1nHMIR8I5n3O3Een0gr6i0mfM+YcTZqjHy3pAYaOjgFG+BMquuKrSyfYf5CbEkLr9uM05RA3pOk4udNB/aQ==}
+  /electron-to-chromium@1.4.480:
+    resolution: {integrity: sha512-IXTgg+bITkQv/FLP9FjX6f9KFCs5hQWeh5uNSKxB9mqYj/JXhHDbu+ekS43LVvbkL3eW6/oZy4+r9Om6lan1Uw==}
 
   /emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
