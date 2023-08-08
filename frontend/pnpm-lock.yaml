@@ -71,8 +71,8 @@ devDependencies:
     specifier: ^1.2.3
     version: 1.2.3(typescript@5.1.6)
   regenerator-runtime:
-    specifier: ^0.13.11
-    version: 0.13.11
+    specifier: ^0.14.0
+    version: 0.14.0
   rimraf:
     specifier: ^5.0.1
     version: 5.0.1
@@ -4113,10 +4113,6 @@ packages:
     engines: {node: '>=8.10.0'}
     dependencies:
       picomatch: 2.3.1
-    dev: true
-
-  /regenerator-runtime@0.13.11:
-    resolution: {integrity: sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==}
     dev: true
 
   /regenerator-runtime@0.14.0:
