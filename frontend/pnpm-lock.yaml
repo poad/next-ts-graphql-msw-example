@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@apollo/client':
-    specifier: ^3.8.0
-    version: 3.8.0(graphql@16.7.1)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^3.8.1
+    version: 3.8.1(graphql@16.7.1)(react-dom@18.2.0)(react@18.2.0)
   '@types/node':
     specifier: ^20.4.9
     version: 20.4.9
@@ -51,7 +51,7 @@ devDependencies:
     version: 3.3.7(graphql-tag@2.12.6)(graphql@16.7.1)
   '@graphql-typed-document-node/apollo-client-3':
     specifier: ^1.0.0
-    version: 1.0.0(@apollo/client@3.8.0)(graphql@16.7.1)
+    version: 1.0.0(@apollo/client@3.8.1)(graphql@16.7.1)
   '@graphql-typed-document-node/core':
     specifier: ~3.2.0
     version: 3.2.0(graphql@16.7.1)
@@ -89,8 +89,8 @@ packages:
       '@jridgewell/gen-mapping': 0.3.3
       '@jridgewell/trace-mapping': 0.3.19
 
-  /@apollo/client@3.8.0(graphql@16.7.1)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-y/NadA2AKVtV18rO+Hi++6a6f4IqhUNvRPny7wAWx39ldzy8I4f6pWOYRSiJmL6hNFciVdT/YZqaoxnF2NRIuQ==}
+  /@apollo/client@3.8.1(graphql@16.7.1)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-JGGj/9bdoLEqzatRikDeN8etseY5qeFAY0vSAx/Pd0ePNsaflKzHx6V2NZ0NsGkInq+9IXXX3RLVDf0EotizMA==}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0
       graphql-ws: ^5.5.5
@@ -1396,13 +1396,13 @@ packages:
       value-or-promise: 1.0.12
     dev: true
 
-  /@graphql-typed-document-node/apollo-client-3@1.0.0(@apollo/client@3.8.0)(graphql@16.7.1):
+  /@graphql-typed-document-node/apollo-client-3@1.0.0(@apollo/client@3.8.1)(graphql@16.7.1):
     resolution: {integrity: sha512-f9dqZ5kXGDRF0FQ/FIbmPzeLcsZ0+43E1P159sMHs0uZ25U9+HQzSaiCpRdQjH/z46T+3lb4ehlV3jn61ULfVA==}
     peerDependencies:
       '@apollo/client': ^3
       graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0
     dependencies:
-      '@apollo/client': 3.8.0(graphql@16.7.1)(react-dom@18.2.0)(react@18.2.0)
+      '@apollo/client': 3.8.1(graphql@16.7.1)(react-dom@18.2.0)(react@18.2.0)
       '@graphql-typed-document-node/core': 1.0.0(graphql@16.7.1)
       graphql: 16.7.1
     dev: true
@@ -3542,8 +3542,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /lru-cache@10.0.0:
-    resolution: {integrity: sha512-svTf/fzsKHffP42sujkO/Rjs37BCIsQVRCeNYIm9WN8rgT7ffoUnRtZCqU+6BqcSBdv8gwJeTz8knJpgACeQMw==}
+  /lru-cache@10.0.1:
+    resolution: {integrity: sha512-IJ4uwUTi2qCccrioU6g9g/5rvvVl13bsdczUUcqbciD9iLr095yj8DQKdObriEvuNSx325N1rV1O0sJFszx75g==}
     engines: {node: 14 || >=16.14}
     dev: true
 
@@ -3985,7 +3985,7 @@ packages:
     resolution: {integrity: sha512-MkhCqzzBEpPvxxQ71Md0b1Kk51W01lrYvlMzSUaIzNsODdd7mqhiimSZlr+VegAz5Z6Vzt9Xg2ttE//XBhH3EQ==}
     engines: {node: '>=16 || 14 >=14.17'}
     dependencies:
-      lru-cache: 10.0.0
+      lru-cache: 10.0.1
       minipass: 7.0.2
     dev: true
 
