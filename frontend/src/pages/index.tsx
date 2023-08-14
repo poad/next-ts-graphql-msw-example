@@ -1,9 +1,9 @@
-import { gql, useQuery } from '@apollo/client';
-import { QueryPokemonListQuery } from '../gql/graphql';
-import { Inter } from 'next/font/google';
-import styles from '../styles/Home.module.css';
+import { gql, useQuery } from "@apollo/client";
+import { QueryPokemonListQuery } from "../gql/graphql";
+import { Inter } from "next/font/google";
+import styles from "../styles/Home.module.css";
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ["latin"] });
 
 const QUERY = gql`
   query QueryPokemonList {
@@ -27,9 +27,9 @@ const Pokemons = (): JSX.Element => {
   }
 
   return (
-    <main className={styles.main} style={{ minHeight: '100vh' }}>
+    <main className={styles.main} style={{ minHeight: "100vh" }}>
       {data?.list.map((pokemon) => (
-        <div className={styles.grid}>
+        <div key={`${pokemon.id}`} className={styles.grid}>
           <p key={`${pokemon.id}-name`} className={inter.className}>
             {pokemon.name}
           </p>

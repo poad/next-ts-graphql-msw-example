@@ -1,26 +1,26 @@
-import { ApolloServer } from '@apollo/server';
+import { ApolloServer } from "@apollo/server";
 import {
   ApolloServerPluginLandingPageLocalDefault,
   ApolloServerPluginLandingPageProductionDefault,
-} from '@apollo/server/plugin/landingPage/default';
+} from "@apollo/server/plugin/landingPage/default";
 import {
   startServerAndCreateLambdaHandler,
   handlers,
-} from '@as-integrations/aws-lambda';
+} from "@as-integrations/aws-lambda";
 import {
   APIGatewayProxyEvent,
   APIGatewayProxyResult,
   Callback,
   Context,
-} from 'aws-lambda';
-import * as log4js from 'log4js';
-import schemaWithResolvers from './schema';
+} from "aws-lambda";
+import * as log4js from "log4js";
+import schemaWithResolvers from "./schema";
 
 log4js.configure({
   appenders: {
-    out: { type: 'stdout', layout: { type: 'pattern', pattern: '%m%n' } },
+    out: { type: "stdout", layout: { type: "pattern", pattern: "%m%n" } },
   },
-  categories: { default: { appenders: ['out'], level: 'info' } },
+  categories: { default: { appenders: ["out"], level: "info" } },
 });
 
 const logger = log4js.getLogger();
@@ -31,7 +31,7 @@ const server = new ApolloServer({
   introspection: true,
   logger,
   plugins: [
-    process.env.NODE_ENV === 'production'
+    process.env.NODE_ENV === "production"
       ? ApolloServerPluginLandingPageProductionDefault()
       : ApolloServerPluginLandingPageLocalDefault({ embed: false }),
   ],
@@ -59,7 +59,7 @@ export async function handler(
     ...resp,
     headers: {
       ...resp?.headers,
-      'Access-Control-Allow-Origin': '*',
+      "Access-Control-Allow-Origin": "*",
     },
   };
 }
