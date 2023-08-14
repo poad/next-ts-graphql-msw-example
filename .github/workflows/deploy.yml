@@ -13,6 +13,7 @@ env:
   APP_NAME: next-ts-graphql-msw-example
   API_ENDPOINT_URL_PARAM: /next-ts-graphql-msw-example/API_ENDPOINT
   S3_BUCKET_NAME: trpc-example-batch-data
+  CI: true
 
 permissions:
   id-token: write

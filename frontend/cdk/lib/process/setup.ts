@@ -1,11 +1,7 @@
-import * as childProcess from 'child_process';
-import * as fs from 'fs';
+import * as childProcess from "child_process";
+import * as fs from "fs";
 
-export const nextJsExport = ({
-  apiUrl,
-}: {
-  apiUrl: string;
-}) => {
+export const nextJsExport = ({ apiUrl }: { apiUrl: string }) => {
   [`${process.cwd()}/../.next`, `${process.cwd()}/../out`].forEach((dir) => {
     if (fs.existsSync(dir)) {
       fs.rmdirSync(dir, {
@@ -13,26 +9,26 @@ export const nextJsExport = ({
       });
     }
   });
-  ['pnpm install'].forEach((cmd) => {
+  ["pnpm install"].forEach((cmd) => {
     childProcess.execSync(cmd, {
       cwd: `${process.cwd()}/../`,
-      stdio: ['ignore', 'inherit', 'inherit'],
+      stdio: ["ignore", "inherit", "inherit"],
       env: { ...process.env },
-      shell: 'bash',
+      shell: "bash",
     });
   });
 
   console.log(apiUrl);
 
-  ['pnpm all'].forEach((cmd) => {
+  ["pnpm all"].forEach((cmd) => {
     childProcess.execSync(cmd, {
       cwd: `${process.cwd()}/../`,
-      stdio: ['ignore', 'inherit', 'inherit'],
+      stdio: ["ignore", "inherit", "inherit"],
       env: {
         ...process.env,
         NEXT_PUBLIC_API_URL: apiUrl,
       },
-      shell: 'bash',
+      shell: "bash",
     });
   });
 };
