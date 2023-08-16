@@ -54,7 +54,7 @@
     "eslint-plugin-n": "^16.0.1",
     "eslint-plugin-promise": "^6.1.1",
     "graphql": "*",
-    "graphql-codegen-typescript-validation-schema": "^0.11.1",
+    "graphql-codegen-typescript-validation-schema": "^0.12.0",
     "log4js": "^6.9.1",
     "prettier": "^3.0.2",
     "regenerator-runtime": "^0.14.0",
