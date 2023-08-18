@@ -2747,7 +2747,7 @@ packages:
     resolution: {integrity: sha512-izNRxPoaeJeg/AyH8hER6s+H7p4itk+03QCa4sbxI3lNdseQYCuxzgsuNK8bTXChtLTjpJz6NmXKA73qLa3rCA==}
     dependencies:
       asn1js: 3.0.5
-      pvtsutils: 1.3.4
+      pvtsutils: 1.3.5
       tslib: 2.6.1
     dev: true
 
@@ -2764,7 +2764,7 @@ packages:
     dependencies:
       '@peculiar/asn1-schema': 2.3.6
       '@peculiar/json-schema': 1.1.12
-      pvtsutils: 1.3.4
+      pvtsutils: 1.3.5
       tslib: 2.6.1
       webcrypto-core: 1.7.7
     dev: true
@@ -3970,7 +3970,7 @@ packages:
     resolution: {integrity: sha512-FVnvrKJwpt9LP2lAMl8qZswRNm3T4q9CON+bxldk2iwk3FFpuwhx2FfinyitizWHsVYyaY+y5JzDR0rCMV5yTQ==}
     engines: {node: '>=12.0.0'}
     dependencies:
-      pvtsutils: 1.3.4
+      pvtsutils: 1.3.5
       pvutils: 1.1.3
       tslib: 2.6.1
     dev: true
@@ -7018,8 +7018,8 @@ packages:
     resolution: {integrity: sha512-rRV+zQD8tVFys26lAGR9WUuS4iUAngJScM+ZRSKtvl5tKeZ2t5bvdNFdNHBW9FWR4guGHlgmsZ1G7BSm2wTbuA==}
     engines: {node: '>=6'}
 
-  /pvtsutils@1.3.4:
-    resolution: {integrity: sha512-Y2lmrVPui6d2U0n8lWRSTQ2Ri/0VDcA/BHAPS8/+5ElWp5drG4oPryLaqnehJT71Q2GgmGeB4mau+lSR1gCCmA==}
+  /pvtsutils@1.3.5:
+    resolution: {integrity: sha512-ARvb14YB9Nm2Xi6nBq1ZX6dAM0FsJnuk+31aUp4TrcZEdKUlSqOqsxJHUPJDNE3qiIp+iUPEIeR6Je/tgV7zsA==}
     dependencies:
       tslib: 2.6.1
     dev: true
@@ -7978,7 +7978,7 @@ packages:
       '@peculiar/asn1-schema': 2.3.6
       '@peculiar/json-schema': 1.1.12
       asn1js: 3.0.5
-      pvtsutils: 1.3.4
+      pvtsutils: 1.3.5
       tslib: 2.6.1
     dev: true
 
