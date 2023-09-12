@@ -18,6 +18,6 @@
   },
   "requireApproval": "never",
   "context": {
-    "s3bucketName": "trpc-example-batch-data"
+    "s3bucketName": "next-ts-graphql-msw-example-batch-data"
   }
 }
