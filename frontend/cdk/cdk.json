@@ -1,5 +1,5 @@
 {
-  "app": "pnpm dlx ts-node --prefer-ts-exts bin/cloudfront-s3-cdn.ts",
+  "app": "bunx ts-node --prefer-ts-exts bin/cloudfront-s3-cdn.ts",
   "watch": {
     "include": [
       "**"

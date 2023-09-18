@@ -9,7 +9,7 @@ export const nextJsExport = ({ apiUrl }: { apiUrl: string }) => {
       });
     }
   });
-  ["pnpm install"].forEach((cmd) => {
+  ["bun install"].forEach((cmd) => {
     childProcess.execSync(cmd, {
       cwd: `${process.cwd()}/../`,
       stdio: ["ignore", "inherit", "inherit"],
@@ -20,7 +20,7 @@ export const nextJsExport = ({ apiUrl }: { apiUrl: string }) => {
 
   console.log(apiUrl);
 
-  ["pnpm all"].forEach((cmd) => {
+  ["bun run all"].forEach((cmd) => {
     childProcess.execSync(cmd, {
       cwd: `${process.cwd()}/../`,
       stdio: ["ignore", "inherit", "inherit"],

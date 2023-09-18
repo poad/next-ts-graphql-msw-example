@@ -12,9 +12,14 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
+  "workspaces": [
+    "backend",
+    "frontend",
+    "frontend/cdk"
+  ],
   "engines": {
     "npm": "use pnpm please!",
     "yarn": "use pnpm please!",
-    "pnpm": ">=8.7.4"
+    "pnpm": ">=8.7.6"
   }
 }
