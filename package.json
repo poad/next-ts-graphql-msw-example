@@ -12,12 +12,6 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "resolutions": {
-    "@apollo/server": ">=4.9.1",
-    "aws-cdk-lib": ">=2.91.0",
-    "fast-xml-parser": ">=4.2.5"
-  },
-  "packageManager": "pnpm@8.7.4",
   "engines": {
     "npm": "use pnpm please!",
     "yarn": "use pnpm please!",
