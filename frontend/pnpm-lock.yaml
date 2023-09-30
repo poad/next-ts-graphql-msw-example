@@ -255,7 +255,7 @@ packages:
     dependencies:
       '@babel/compat-data': 7.22.20
       '@babel/helper-validator-option': 7.22.15
-      browserslist: 4.22.0
+      browserslist: 4.22.1
       lru-cache: 5.1.1
       semver: 6.3.1
 
@@ -1148,7 +1148,7 @@ packages:
       '@graphql-tools/utils': 10.0.6(graphql@16.8.1)
       '@types/ws': 8.5.6
       graphql: 16.8.1
-      graphql-ws: 5.14.0(graphql@16.8.1)
+      graphql-ws: 5.14.1(graphql@16.8.1)
       isomorphic-ws: 5.0.0(ws@8.14.2)
       tslib: 2.6.2
       ws: 8.14.2
@@ -2354,15 +2354,15 @@ packages:
       fill-range: 7.0.1
     dev: true
 
-  /browserslist@4.22.0:
-    resolution: {integrity: sha512-v+Jcv64L2LbfTC6OnRcaxtqJNJuQAVhZKSJfR/6hn7lhnChUXl4amwVviqN1k411BB+3rRoKMitELRn1CojeRA==}
+  /browserslist@4.22.1:
+    resolution: {integrity: sha512-FEVc202+2iuClEhZhrWy6ZiAcRLvNMyYcxZ8raemul1DYVOVdFsbqckWLdsixQZCpJlwe77Z3UTalE7jsjnKfQ==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001541
-      electron-to-chromium: 1.4.534
+      electron-to-chromium: 1.4.536
       node-releases: 2.0.13
-      update-browserslist-db: 1.0.13(browserslist@4.22.0)
+      update-browserslist-db: 1.0.13(browserslist@4.22.1)
 
   /bser@2.1.1:
     resolution: {integrity: sha512-gQxTNE/GAfIIrmHLUE3oJyp5FO6HRBfhjnw4/wMmA63ZGDJnWBmgY/lyQBpnDUkGmAhbSe39tx2d/iTOAfglwQ==}
@@ -2787,8 +2787,8 @@ packages:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
     dev: true
 
-  /electron-to-chromium@1.4.534:
-    resolution: {integrity: sha512-ikY7wAMtMt3jTnHsHG0YLl4MKJiKz2tgidenGSNgwUX2StBLNZ8VCxflD9tZK/ceTs4j8gDC9+6LQQ6iGkK04g==}
+  /electron-to-chromium@1.4.536:
+    resolution: {integrity: sha512-L4VgC/76m6y8WVCgnw5kJy/xs7hXrViCFdNKVG8Y7B2isfwrFryFyJzumh3ugxhd/oB1uEaEEvRdmeLrnd7OFA==}
 
   /emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -3660,8 +3660,8 @@ packages:
       graphql: 16.8.1
       tslib: 2.6.2
 
-  /graphql-ws@5.14.0(graphql@16.8.1):
-    resolution: {integrity: sha512-itrUTQZP/TgswR4GSSYuwWUzrE/w5GhbwM2GX3ic2U7aw33jgEsayfIlvaj7/GcIvZgNMzsPTrE5hqPuFUiE5g==}
+  /graphql-ws@5.14.1(graphql@16.8.1):
+    resolution: {integrity: sha512-aqkls1espsygP1PfkAuuLIV96IbztQ6EaADse97pw8wRIMT3+AL/OYfS8V2iCRkc0gzckitoDRGCQEdnySggiA==}
     engines: {node: '>=10'}
     peerDependencies:
       graphql: '>=0.11 <=16'
@@ -5542,13 +5542,13 @@ packages:
       normalize-path: 2.1.1
     dev: true
 
-  /update-browserslist-db@1.0.13(browserslist@4.22.0):
+  /update-browserslist-db@1.0.13(browserslist@4.22.1):
     resolution: {integrity: sha512-xebP81SNcPuNpPP3uzeW1NYXxI3rxyJzF3pD6sH4jE7o/IX+WtSpwnVU+qIsDPyk0d3hmFQ7mjqc6AtV604hbg==}
     hasBin: true
     peerDependencies:
       browserslist: '>= 4.21.0'
     dependencies:
-      browserslist: 4.22.0
+      browserslist: 4.22.1
       escalade: 3.1.1
       picocolors: 1.0.0
 
