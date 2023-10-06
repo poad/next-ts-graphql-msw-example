@@ -637,7 +637,7 @@ packages:
       '@aws-sdk/types': 3.425.0
       '@smithy/credential-provider-imds': 2.0.13
       '@smithy/property-provider': 2.0.11
-      '@smithy/shared-ini-file-loader': 2.0.12
+      '@smithy/shared-ini-file-loader': 2.0.13
       '@smithy/types': 2.3.4
       tslib: 2.6.2
     transitivePeerDependencies:
@@ -656,7 +656,7 @@ packages:
       '@aws-sdk/types': 3.425.0
       '@smithy/credential-provider-imds': 2.0.13
       '@smithy/property-provider': 2.0.11
-      '@smithy/shared-ini-file-loader': 2.0.12
+      '@smithy/shared-ini-file-loader': 2.0.13
       '@smithy/types': 2.3.4
       tslib: 2.6.2
     transitivePeerDependencies:
@@ -669,7 +669,7 @@ packages:
     dependencies:
       '@aws-sdk/types': 3.425.0
       '@smithy/property-provider': 2.0.11
-      '@smithy/shared-ini-file-loader': 2.0.12
+      '@smithy/shared-ini-file-loader': 2.0.13
       '@smithy/types': 2.3.4
       tslib: 2.6.2
     dev: false
@@ -682,7 +682,7 @@ packages:
       '@aws-sdk/token-providers': 3.425.0
       '@aws-sdk/types': 3.425.0
       '@smithy/property-provider': 2.0.11
-      '@smithy/shared-ini-file-loader': 2.0.12
+      '@smithy/shared-ini-file-loader': 2.0.13
       '@smithy/types': 2.3.4
       tslib: 2.6.2
     transitivePeerDependencies:
@@ -878,7 +878,7 @@ packages:
       '@smithy/node-http-handler': 2.1.6
       '@smithy/property-provider': 2.0.11
       '@smithy/protocol-http': 3.0.6
-      '@smithy/shared-ini-file-loader': 2.0.12
+      '@smithy/shared-ini-file-loader': 2.0.13
       '@smithy/smithy-client': 2.1.9
       '@smithy/types': 2.3.4
       '@smithy/url-parser': 2.0.10
@@ -2459,7 +2459,7 @@ packages:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     dependencies:
       graphql: 16.8.1
-      tslib: 2.5.3
+      tslib: 2.6.2
     dev: true
 
   /@graphql-tools/prisma-loader@8.0.1(@types/node@20.8.2)(graphql@16.8.1):
@@ -2518,7 +2518,7 @@ packages:
       '@ardatan/relay-compiler': 12.0.0(graphql@16.8.1)
       '@graphql-tools/utils': 10.0.6(graphql@16.8.1)
       graphql: 16.8.1
-      tslib: 2.5.3
+      tslib: 2.6.2
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -3025,7 +3025,7 @@ packages:
     engines: {node: '>=14.0.0'}
     dependencies:
       '@smithy/property-provider': 2.0.11
-      '@smithy/shared-ini-file-loader': 2.0.12
+      '@smithy/shared-ini-file-loader': 2.0.13
       '@smithy/types': 2.3.4
       tslib: 2.6.2
     dev: false
@@ -3081,8 +3081,8 @@ packages:
       '@smithy/types': 2.3.4
     dev: false
 
-  /@smithy/shared-ini-file-loader@2.0.12:
-    resolution: {integrity: sha512-umi0wc4UBGYullAgYNUVfGLgVpxQyES47cnomTqzCKeKO5oudO4hyDNj+wzrOjqDFwK2nWYGVgS8Y0JgGietrw==}
+  /@smithy/shared-ini-file-loader@2.0.13:
+    resolution: {integrity: sha512-r6BlDQdYgqDo5xuOOKbmhJD5jylg2Lm1Q1eXZ2mM1kg64GVQ0bHScELEb4W5jl+LEwrU9yNEly6c6ErtU3TJxw==}
     engines: {node: '>=14.0.0'}
     dependencies:
       '@smithy/types': 2.3.4
@@ -5380,7 +5380,7 @@ packages:
       graphql: ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
       graphql: 16.8.1
-      tslib: 2.5.3
+      tslib: 2.6.2
     dev: true
 
   /graphql-ws@5.12.1(graphql@16.8.1):
