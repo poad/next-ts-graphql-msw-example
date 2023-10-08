@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@apollo/client':
-    specifier: ^3.8.4
-    version: 3.8.4(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^3.8.5
+    version: 3.8.5(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
   '@types/node':
     specifier: ^20.8.2
     version: 20.8.2
@@ -51,7 +51,7 @@ devDependencies:
     version: 4.0.0(encoding@0.1.13)(graphql-tag@2.12.6)(graphql@16.8.1)
   '@graphql-typed-document-node/apollo-client-3':
     specifier: ^1.0.0
-    version: 1.0.0(@apollo/client@3.8.4)(graphql@16.8.1)
+    version: 1.0.0(@apollo/client@3.8.5)(graphql@16.8.1)
   '@graphql-typed-document-node/core':
     specifier: ~3.2.0
     version: 3.2.0(graphql@16.8.1)
@@ -127,8 +127,8 @@ packages:
       '@jridgewell/gen-mapping': 0.3.3
       '@jridgewell/trace-mapping': 0.3.19
 
-  /@apollo/client@3.8.4(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-QFXE4ylSHUa6LgYoOGsPysJCm4YJOOM1NwHyF6msZdZXIerqUVpLvxQOdQEXgS0RWvYiBMC1wGOWKzJKSWBdAg==}
+  /@apollo/client@3.8.5(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-/ueWC3f1pFeH+tWbM1phz6pzUGGijyml6oQ+LKUcQzpXF6tVFPrb6oUIUQCbZpr6Xmv/dtNiFDohc39ra7Solg==}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0
       graphql-ws: ^5.5.5
@@ -1490,13 +1490,13 @@ packages:
       value-or-promise: 1.0.12
     dev: true
 
-  /@graphql-typed-document-node/apollo-client-3@1.0.0(@apollo/client@3.8.4)(graphql@16.8.1):
+  /@graphql-typed-document-node/apollo-client-3@1.0.0(@apollo/client@3.8.5)(graphql@16.8.1):
     resolution: {integrity: sha512-f9dqZ5kXGDRF0FQ/FIbmPzeLcsZ0+43E1P159sMHs0uZ25U9+HQzSaiCpRdQjH/z46T+3lb4ehlV3jn61ULfVA==}
     peerDependencies:
       '@apollo/client': ^3
       graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0
     dependencies:
-      '@apollo/client': 3.8.4(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
+      '@apollo/client': 3.8.5(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
       '@graphql-typed-document-node/core': 1.0.0(graphql@16.8.1)
       graphql: 16.8.1
     dev: true
