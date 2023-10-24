@@ -22,7 +22,7 @@ if [ $result -ne 0 ]; then
 fi
 echo ""
 pwd
-rm -rf node_modules && pnpm install -r && pnpm up -r && pnpm lint-fix && pnpm build
+rm -rf node_modules && pnpm install -r && pnpm up -r && pnpm lint-fix && pnpm run --parallel build
 result=$?
 if [ $result -ne 0 ]; then
   cd "${CUR}"
