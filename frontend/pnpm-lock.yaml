@@ -12,8 +12,8 @@ dependencies:
     specifier: ^20.8.9
     version: 20.8.9
   '@types/react':
-    specifier: ^18.2.31
-    version: 18.2.31
+    specifier: ^18.2.33
+    version: 18.2.33
   cross-env:
     specifier: ^7.0.3
     version: 7.0.3
@@ -1095,7 +1095,7 @@ packages:
     dependencies:
       '@ardatan/sync-fetch': 0.0.1(encoding@0.1.13)
       '@graphql-tools/utils': 10.0.7(graphql@16.8.1)
-      '@whatwg-node/fetch': 0.9.13
+      '@whatwg-node/fetch': 0.9.14
       graphql: 16.8.1
       tslib: 2.6.2
     transitivePeerDependencies:
@@ -1183,7 +1183,7 @@ packages:
     dependencies:
       '@graphql-tools/utils': 10.0.7(graphql@16.8.1)
       '@repeaterjs/repeater': 3.0.4
-      '@whatwg-node/fetch': 0.9.13
+      '@whatwg-node/fetch': 0.9.14
       extract-files: 11.0.0
       graphql: 16.8.1
       meros: 1.3.0(@types/node@20.8.9)
@@ -1251,7 +1251,7 @@ packages:
       '@graphql-tools/executor-http': 1.0.3(@types/node@20.8.9)(graphql@16.8.1)
       '@graphql-tools/graphql-tag-pluck': 8.1.0(graphql@16.8.1)
       '@graphql-tools/utils': 10.0.7(graphql@16.8.1)
-      '@whatwg-node/fetch': 0.9.13
+      '@whatwg-node/fetch': 0.9.14
       graphql: 16.8.1
       tslib: 2.6.2
       value-or-promise: 1.0.12
@@ -1371,7 +1371,7 @@ packages:
       '@graphql-tools/utils': 10.0.7(graphql@16.8.1)
       '@types/js-yaml': 4.0.8
       '@types/json-stable-stringify': 1.0.35
-      '@whatwg-node/fetch': 0.9.13
+      '@whatwg-node/fetch': 0.9.14
       chalk: 4.1.2
       debug: 4.3.4
       dotenv: 16.3.1
@@ -1450,7 +1450,7 @@ packages:
       '@graphql-tools/utils': 10.0.7(graphql@16.8.1)
       '@graphql-tools/wrap': 10.0.1(graphql@16.8.1)
       '@types/ws': 8.5.8
-      '@whatwg-node/fetch': 0.9.13
+      '@whatwg-node/fetch': 0.9.14
       graphql: 16.8.1
       isomorphic-ws: 5.0.0(ws@8.14.2)
       tslib: 2.6.2
@@ -1828,8 +1828,8 @@ packages:
     resolution: {integrity: sha512-n1yyPsugYNSmHgxDFjicaI2+gCNjsBck8UX9kuofAKlc0h1bL+20oSF72KeNaW2DUlesbEVCFgyV2dPGTiY42g==}
     dev: false
 
-  /@types/react@18.2.31:
-    resolution: {integrity: sha512-c2UnPv548q+5DFh03y8lEDeMfDwBn9G3dRwfkrxQMo/dOtRHUUO57k6pHvBIfH/VF4Nh+98mZ5aaSe+2echD5g==}
+  /@types/react@18.2.33:
+    resolution: {integrity: sha512-v+I7S+hu3PIBoVkKGpSYYpiBT1ijqEzWpzQD62/jm4K74hPpSP7FF9BnKG6+fg2+62weJYkkBWDJlZt5JO/9hg==}
     dependencies:
       '@types/prop-types': 15.7.9
       '@types/scheduler': 0.16.5
@@ -2008,11 +2008,11 @@ packages:
       web-streams-polyfill: 3.2.1
     dev: true
 
-  /@whatwg-node/fetch@0.9.13:
-    resolution: {integrity: sha512-PPtMwhjtS96XROnSpowCQM85gCUG2m7AXZFw0PZlGbhzx2GK7f2iOXilfgIJ0uSlCuuGbOIzfouISkA7C4FJOw==}
+  /@whatwg-node/fetch@0.9.14:
+    resolution: {integrity: sha512-wurZC82zzZwXRDSW0OS9l141DynaJQh7Yt0FD1xZ8niX7/Et/7RoiLiltbVU1fSF1RR9z6ndEaTUQBAmddTm1w==}
     engines: {node: '>=16.0.0'}
     dependencies:
-      '@whatwg-node/node-fetch': 0.4.19
+      '@whatwg-node/node-fetch': 0.5.0
       urlpattern-polyfill: 9.0.0
     dev: true
 
@@ -2026,8 +2026,8 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /@whatwg-node/node-fetch@0.4.19:
-    resolution: {integrity: sha512-AW7/m2AuweAoSXmESrYQr/KBafueScNbn2iNO0u6xFr2JZdPmYsSm5yvAXYk6yDLv+eDmSSKrf7JnFZ0CsJIdA==}
+  /@whatwg-node/node-fetch@0.5.0:
+    resolution: {integrity: sha512-q76lDAafvHNGWedNAVHrz/EyYTS8qwRLcwne8SJQdRN5P3HydxU6XROFvJfTML6KZXQX2FDdGY4/SnaNyd7M0Q==}
     engines: {node: '>=16.0.0'}
     dependencies:
       '@whatwg-node/events': 0.1.1
