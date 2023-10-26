@@ -30,11 +30,11 @@ importers:
         version: 0.5.21
     devDependencies:
       '@apollo/server':
-        specifier: ^4.9.4
-        version: 4.9.4(graphql@16.8.1)
+        specifier: ^4.9.5
+        version: 4.9.5(graphql@16.8.1)
       '@as-integrations/aws-lambda':
         specifier: ^3.1.0
-        version: 3.1.0(@apollo/server@4.9.4)
+        version: 3.1.0(@apollo/server@4.9.5)
       '@aws-lambda-powertools/logger':
         specifier: ^1.14.0
         version: 1.14.0
@@ -83,9 +83,6 @@ importers:
       esbuild:
         specifier: ^0.19.5
         version: 0.19.5
-      eslint:
-        specifier: ^8.52.0
-        version: 8.52.0
       eslint-config-import:
         specifier: ^0.13.0
         version: 0.13.0(eslint-plugin-import@2.29.0)
@@ -390,8 +387,8 @@ packages:
       graphql: 16.8.1
     dev: true
 
-  /@apollo/server@4.9.4(graphql@16.8.1):
-    resolution: {integrity: sha512-lopNDM3sZerTcYH/P85QX5HqSNV4HoVbtX3zOrf0ak7eplhPDiGVyF0jQWRbL64znG6KXW+nMuLDTyFTMQnvgA==}
+  /@apollo/server@4.9.5(graphql@16.8.1):
+    resolution: {integrity: sha512-eDBfArYbZaTm1AGa82M1aL7lOscVhnZsH85+OWmHMIR98qntzEjNpWpQPYDTru63Qxs4kHcY29NUx/kMGZfGEA==}
     engines: {node: '>=14.16.0'}
     peerDependencies:
       graphql: ^16.6.0
@@ -569,13 +566,13 @@ packages:
       - encoding
     dev: true
 
-  /@as-integrations/aws-lambda@3.1.0(@apollo/server@4.9.4):
+  /@as-integrations/aws-lambda@3.1.0(@apollo/server@4.9.5):
     resolution: {integrity: sha512-V7H9ICXgt5KDKfEjYSRB59lEVfQqi7oSIZEeBGzPrmfhSPIHyFCNJyHi1hXdJmRb6GHpCNmtffmqRgsB0i9k3w==}
     engines: {node: '>=16.0'}
     peerDependencies:
       '@apollo/server': ^4.0.0
     dependencies:
-      '@apollo/server': 4.9.4(graphql@16.8.1)
+      '@apollo/server': 4.9.5(graphql@16.8.1)
       '@types/aws-lambda': 8.10.125
     dev: true
 
