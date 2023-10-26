@@ -14,7 +14,7 @@ if [ $result -ne 0 ]; then
 fi
 echo ""
 pwd
-cd "${CURRENT}"
+cd "${CURRENT}/backend"
 result=$?
 if [ $result -ne 0 ]; then
   cd "${CUR}"
@@ -22,7 +22,35 @@ if [ $result -ne 0 ]; then
 fi
 echo ""
 pwd
-rm -rf node_modules && pnpm install -r && pnpm up -r && pnpm lint-fix && pnpm run --parallel build
+rm -rf node_modules && pnpm install && pnpm up && pnpm lint-fix && pnpm build
+result=$?
+if [ $result -ne 0 ]; then
+  cd "${CUR}"
+  exit $result
+fi
+cd "${CURRENT}/frontend"
+result=$?
+if [ $result -ne 0 ]; then
+  cd "${CUR}"
+  exit $result
+fi
+echo ""
+pwd
+rm -rf node_modules && pnpm install && pnpm up && pnpm lint-fix && pnpm all
+result=$?
+if [ $result -ne 0 ]; then
+  cd "${CUR}"
+  exit $result
+fi
+cd "${CURRENT}/frontend/cdk"
+result=$?
+if [ $result -ne 0 ]; then
+  cd "${CUR}"
+  exit $result
+fi
+echo ""
+pwd
+rm -rf node_modules && pnpm install && pnpm up && pnpm lint-fix && pnpm build
 result=$?
 if [ $result -ne 0 ]; then
   cd "${CUR}"
