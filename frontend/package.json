@@ -16,11 +16,7 @@
     "clean": "rimraf build",
     "generate": "graphql-codegen --config codegen.yml",
     "pretest": "pnpm build",
-    "prelint": "pnpm install --no-frozen-lockfile",
-    "prelint-fix": "pnpm install --no-frozen-lockfile",
     "prebuild": "pnpm lint",
-    "predev": "pnpm install",
-    "pregenerate": "pnpm install --no-frozen-lockfile",
     "postgenerate": "pnpm build",
     "analyze": "cross-env ANALYZE=true pnpm build",
     "all": "pnpm build"

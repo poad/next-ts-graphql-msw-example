@@ -15,10 +15,7 @@
     "lint": "pnpm run --parallel /.*:check/",
     "lint-fix": "pnpm run /.*:fix/",
     "clean": "rimraf build",
-    "prelint": "pnpm install",
-    "prelint-fix": "pnpm install",
     "prebuild": "pnpm lint",
-    "pregenerate": "pnpm install",
     "postgenerate": "pnpm build",
     "generate": "graphql-codegen --config codegen.yml"
   },
@@ -58,7 +55,7 @@
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.437.0",
-    "aws-cdk-lib": "^2.103.0",
+    "aws-cdk-lib": "^2.103.1",
     "aws-lambda": "^1.0.7",
     "constructs": "^10.3.0",
     "graphql": "^16.8.1",

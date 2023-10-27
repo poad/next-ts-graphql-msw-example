@@ -14,9 +14,6 @@
     "eslint:fix": "eslint --fix --ext .ts bin lib",
     "lint": "pnpm run --parallel /.*:check/",
     "lint-fix": "pnpm run /.*:fix/",
-    "clean": "rimraf build",
-    "prelint": "pnpm install --no-frozen-lockfile",
-    "prelint-fix": "pnpm install --no-frozen-lockfile",
     "prebuild": "pnpm lint"
   },
   "devDependencies": {
@@ -38,7 +35,7 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "aws-cdk-lib": "^2.103.0",
+    "aws-cdk-lib": "^2.103.1",
     "constructs": "^10.3.0",
     "esbuild": "^0.19.5",
     "source-map-support": "^0.5.21"
