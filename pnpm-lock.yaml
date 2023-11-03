@@ -36,8 +36,8 @@ importers:
         specifier: ^3.1.0
         version: 3.1.0(@apollo/server@4.9.5)
       '@aws-lambda-powertools/logger':
-        specifier: ^1.14.1
-        version: 1.14.1
+        specifier: ^1.14.2
+        version: 1.14.2
       '@graphql-codegen/cli':
         specifier: ^5.0.0
         version: 5.0.0(@types/node@20.8.10)(encoding@0.1.13)(graphql@16.8.1)(typescript@5.2.2)
@@ -657,19 +657,19 @@ packages:
       tslib: 1.14.1
     dev: false
 
-  /@aws-lambda-powertools/commons@1.14.1:
-    resolution: {integrity: sha512-nJ9NFOJj2qnZzdQT5bdixkkZughpEap/9PmZKeHTRffofR79Cf5/YGSadul2pijT6T+pqUfmarY1+I9WJMw+JQ==}
+  /@aws-lambda-powertools/commons@1.14.2:
+    resolution: {integrity: sha512-pGW2RSeOEbU1e+mj+MlMkaiM4njO289glFjJA1V+H8bmjvHJXaItroH7lutZ8Gde1Iq+5WoRVQN8M/xmMNSxIA==}
     dev: true
 
-  /@aws-lambda-powertools/logger@1.14.1:
-    resolution: {integrity: sha512-R882S+sgZ7ujrwG6HxoqAhINtH7sNWT80KRITYRPcci5hxlX86CF98vKeOtjpsWfK3KeHwTv3vG6MbRr5DEHOw==}
+  /@aws-lambda-powertools/logger@1.14.2:
+    resolution: {integrity: sha512-eUu1qF/8S3H7SquaKjmIj/go/3UDYwsfiJ3My1gtqd9eKRlUPKpvktAeF/+yghcO0BmuA5q1i2hKr8rsJ+2lGg==}
     peerDependencies:
       '@middy/core': '>=3.x'
     peerDependenciesMeta:
       '@middy/core':
         optional: true
     dependencies:
-      '@aws-lambda-powertools/commons': 1.14.1
+      '@aws-lambda-powertools/commons': 1.14.2
       lodash.merge: 4.6.2
     dev: true
 
