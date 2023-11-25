@@ -17,6 +17,8 @@
     ]
   },
   "requireApproval": "never",
+  "versionReporting": false,
+  "pathMetadata": false,
   "context": {
     "s3bucketName": "next-ts-graphql-msw-example-batch-data"
   }
