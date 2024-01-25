@@ -14,8 +14,8 @@ importers:
         specifier: ^3.499.0
         version: 3.499.0
       aws-cdk-lib:
-        specifier: ^2.122.0
-        version: 2.122.0(constructs@10.3.0)
+        specifier: ^2.123.0
+        version: 2.123.0(constructs@10.3.0)
       aws-lambda:
         specifier: ^1.0.7
         version: 1.0.7
@@ -78,8 +78,8 @@ importers:
         specifier: ^6.19.1
         version: 6.19.1(eslint@8.56.0)(typescript@5.3.3)
       aws-cdk:
-        specifier: ^2.122.0
-        version: 2.122.0
+        specifier: ^2.123.0
+        version: 2.123.0
       esbuild:
         specifier: ^0.19.12
         version: 0.19.12
@@ -238,8 +238,8 @@ importers:
   frontend/cdk:
     dependencies:
       aws-cdk-lib:
-        specifier: ^2.122.0
-        version: 2.122.0(constructs@10.3.0)
+        specifier: ^2.123.0
+        version: 2.123.0(constructs@10.3.0)
       constructs:
         specifier: ^10.3.0
         version: 10.3.0
@@ -260,8 +260,8 @@ importers:
         specifier: ^6.19.1
         version: 6.19.1(eslint@8.56.0)(typescript@5.3.3)
       aws-cdk:
-        specifier: ^2.122.0
-        version: 2.122.0
+        specifier: ^2.123.0
+        version: 2.123.0
       eslint:
         specifier: ^8.56.0
         version: 8.56.0
@@ -4871,8 +4871,8 @@ packages:
     resolution: {integrity: sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==}
     engines: {node: '>= 0.4'}
 
-  /aws-cdk-lib@2.122.0(constructs@10.3.0):
-    resolution: {integrity: sha512-NBUfYk/SialvKFsvBG/Ucd7lM+BID3Uy3EEOnIBbioDpnMotm5SDaU/RUm4APS4sxzQZX1DjduD5ZUFNHnEWhQ==}
+  /aws-cdk-lib@2.123.0(constructs@10.3.0):
+    resolution: {integrity: sha512-KSfX1ex52N/v25hjOlec1D9iCBLbGpegTR8rB4kYVqdQCdCWbKAwZjo6f38JZqkDlEJn+g249p8xiniq/gDniQ==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       constructs: ^10.0.0
@@ -4894,8 +4894,8 @@ packages:
       - table
       - yaml
 
-  /aws-cdk@2.122.0:
-    resolution: {integrity: sha512-WqiVTedcuW4LjH4WqtQncliUdeDa9j9xgu3II8Qd1HmCZotbzBorYIHDvOJ+m3ovIzd9DL+hNq9PPUqxtBe0VQ==}
+  /aws-cdk@2.123.0:
+    resolution: {integrity: sha512-JvGNN1FobSaGwirJJQZ1oIkaHFfQoLbRyuxzFNQSs2wlVltwFb1VdR7FNxh0sVzugM2RsYQu8xQPUa53ZnDlyg==}
     engines: {node: '>= 14.15.0'}
     hasBin: true
     optionalDependencies:
@@ -5139,6 +5139,11 @@ packages:
 
   /caniuse-lite@1.0.30001579:
     resolution: {integrity: sha512-u5AUVkixruKHJjw/pj9wISlcMpgFWzSrczLZbrqBSxukQixmg0SJ5sZTpvaFvxU0HoQKd4yoyAogyrAz9pzJnA==}
+    dev: true
+
+  /caniuse-lite@1.0.30001580:
+    resolution: {integrity: sha512-mtj5ur2FFPZcCEpXFy8ADXbDACuNFXg6mxVDqp7tqooX6l3zwm+d8EPoeOSIFRDvHs8qu7/SLFOGniULkcH2iA==}
+    dev: false
 
   /capital-case@1.0.4:
     resolution: {integrity: sha512-ds37W8CytHgwnhGGTi88pcPyR15qoNkOpYwmMMfnWqqWgESapLqvDx6huFjQ5vqWSn2Z06173XNA7LtMOeUh1A==}
@@ -7684,7 +7689,7 @@ packages:
       '@next/env': 14.1.0
       '@swc/helpers': 0.5.2
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001579
+      caniuse-lite: 1.0.30001580
       graceful-fs: 4.2.11
       postcss: 8.4.31
       react: 18.2.0
