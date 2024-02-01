@@ -22,9 +22,9 @@
     "all": "pnpm build"
   },
   "dependencies": {
-    "@apollo/client": "^3.9.1",
-    "@types/node": "^20.11.14",
-    "@types/react": "^18.2.48",
+    "@apollo/client": "^3.9.2",
+    "@types/node": "^20.11.16",
+    "@types/react": "^18.2.51",
     "cross-env": "^7.0.3",
     "graphql": "^16.8.1",
     "next": "^14.1.0",
