@@ -24,7 +24,7 @@
   "dependencies": {
     "@apollo/client": "^3.9.2",
     "@types/node": "^20.11.16",
-    "@types/react": "^18.2.51",
+    "@types/react": "^18.2.53",
     "cross-env": "^7.0.3",
     "graphql": "^16.8.1",
     "next": "^14.1.0",
@@ -37,7 +37,7 @@
     "@graphql-codegen/cli": "^5.0.0",
     "@graphql-codegen/client-preset": "^4.1.0",
     "@graphql-codegen/typescript-msw": "^2.1.0",
-    "@graphql-codegen/typescript-react-apollo": "^4.1.0",
+    "@graphql-codegen/typescript-react-apollo": "^4.2.0",
     "@graphql-typed-document-node/apollo-client-3": "^1.0.0",
     "@graphql-typed-document-node/core": "~3.2.0",
     "@next/bundle-analyzer": "^14.1.0",
@@ -57,7 +57,7 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "msw": "^2.1.5",
-    "prettier": "^3.2.4",
+    "prettier": "^3.2.5",
     "rimraf": "^5.0.5"
   },
   "msw": {
