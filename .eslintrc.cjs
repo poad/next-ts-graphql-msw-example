@@ -7,8 +7,7 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:react/recommended',
-    'next'
+    'plugin:react/recommended'
   ],
   parserOptions: {
     ecmaVersion: 'latest',
@@ -18,8 +17,7 @@ module.exports = {
   },
   parser: '@typescript-eslint/parser',
   plugins: [
-    '@typescript-eslint',
-    'react'
+    '@typescript-eslint'
   ],
   settings: {
     react: {

@@ -2,38 +2,51 @@ module.exports = {
   root: true,
   env: {
     browser: true,
+    node: true,
     es2021: true,
   },
-  extends: [
-    'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:react/recommended',
-    'next'
-  ],
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
+    ecmaVersion: "latest",
+    ecmaFeatures: {
+      jsx: true,
+    },
+    useJSXTextNode: true,
     project: true,
-    projectRoot: __dirname,
+    projectRoot: "__dirname",
+    tsconfigRootDir: "__dirname",
   },
-  parser: '@typescript-eslint/parser',
-  plugins: [
-    '@typescript-eslint',
-    'react'
+  extends: [
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
   ],
+  plugins: ["react"],
   settings: {
     react: {
-      version: 'detect',
+      version: "detect",
     },
   },
   rules: {
-    semi: ['error', 'always'],
-    '@typescript-eslint/semi': 'off',
-    'react/react-in-jsx-scope': 'off',
-    'space-before-function-paren': 'off',
-    '@typescript-eslint/comma-dangle': 'off',
-    '@typescript-eslint/member-delimiter-style': 'off',
-    'multiline-ternary': 'off',
-    '@typescript-eslint/space-before-function-paren': 'off',
+    "@typescript-eslint/indent": ["off"],
+    "@typescript-eslint/semi": ["off"],
+    "@typescript-eslint/comma-dangle": ["off"],
+    "@typescript-eslint/member-delimiter-style": ["off"],
+    "@typescript-eslint/space-before-function-paren": ["off"],
+    "spaced-comment": ["error", "always", { markers: ["/ <reference"] }],
+    "import/no-extraneous-dependencies": [
+      "off",
+      {
+        devDependencies: true,
+        optionalDependencies: false,
+      },
+    ],
+    "@next/next/no-img-element": ["off"],
+    "prefer-promise-reject-errors": ["off"],
+    "react/jsx-filename-extension": ["off"],
+    "react/prop-types": ["off"],
+    "import/extensions": ["off"],
+    "jsx-a11y/anchor-is-valid": ["off"],
+    "no-return-assign": ["off"],
+    "react/display-name": ["off"],
+    "react/react-in-jsx-scope": ["off"],
   },
 };
