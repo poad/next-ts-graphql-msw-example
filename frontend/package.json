@@ -24,7 +24,7 @@
   "dependencies": {
     "@apollo/client": "^3.9.5",
     "@types/node": "^20.11.19",
-    "@types/react": "^18.2.56",
+    "@types/react": "^18.2.57",
     "cross-env": "^7.0.3",
     "graphql": "^16.8.1",
     "next": "^14.1.0",
@@ -35,14 +35,14 @@
   },
   "devDependencies": {
     "@graphql-codegen/cli": "^5.0.2",
-    "@graphql-codegen/client-preset": "^4.2.2",
+    "@graphql-codegen/client-preset": "^4.2.3",
     "@graphql-codegen/typescript-msw": "^3.0.0",
     "@graphql-codegen/typescript-react-apollo": "^4.3.0",
     "@graphql-typed-document-node/apollo-client-3": "^1.0.0",
-    "@graphql-typed-document-node/core": "~3.2.0",
+    "@graphql-typed-document-node/core": "^3.2.0",
     "@next/bundle-analyzer": "^14.1.0",
-    "@typescript-eslint/eslint-plugin": "^7.0.1",
-    "@typescript-eslint/parser": "^7.0.1",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
     "encoding": "^0.1.13",
     "eslint": "^8.56.0",
     "eslint-config-import": "^0.13.0",
@@ -63,7 +63,6 @@
   "msw": {
     "workerDirectory": "public"
   },
-  "packageManager": "pnpm@8.7.4",
   "engines": {
     "npm": "use pnpm please!",
     "yarn": "use pnpm please!",
