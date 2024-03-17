@@ -164,7 +164,7 @@ importers:
         version: 4.2.4(encoding@0.1.13)(graphql@16.8.1)
       '@graphql-codegen/typescript-msw':
         specifier: ^3.0.0
-        version: 3.0.0(encoding@0.1.13)(graphql@16.8.1)(msw@2.2.5)
+        version: 3.0.0(encoding@0.1.13)(graphql@16.8.1)(msw@2.2.6)
       '@graphql-codegen/typescript-react-apollo':
         specifier: ^4.3.0
         version: 4.3.0(encoding@0.1.13)(graphql-tag@2.12.6)(graphql@16.8.1)
@@ -223,8 +223,8 @@ importers:
         specifier: ^4.6.0
         version: 4.6.0(eslint@8.57.0)
       msw:
-        specifier: ^2.2.5
-        version: 2.2.5(typescript@5.4.2)
+        specifier: ^2.2.6
+        version: 2.2.6(typescript@5.4.2)
       prettier:
         specifier: ^3.2.5
         version: 3.2.5
@@ -2394,7 +2394,7 @@ packages:
       - supports-color
     dev: true
 
-  /@graphql-codegen/typescript-msw@3.0.0(encoding@0.1.13)(graphql@16.8.1)(msw@2.2.5):
+  /@graphql-codegen/typescript-msw@3.0.0(encoding@0.1.13)(graphql@16.8.1)(msw@2.2.6):
     resolution: {integrity: sha512-1cZJ5haxPMUCuq/4fGU1N0xeAxV7C1Hok0hk8klvR4IemOYY+IvajV98H5h/VJz3BpZin8v2kgQH09sPkn0mRQ==}
     engines: {node: '>= 16.0.0'}
     peerDependencies:
@@ -2406,7 +2406,7 @@ packages:
       auto-bind: 4.0.0
       change-case-all: 1.0.15
       graphql: 16.8.1
-      msw: 2.2.5(typescript@5.4.2)
+      msw: 2.2.6(typescript@5.4.2)
       tslib: 2.6.2
     transitivePeerDependencies:
       - encoding
@@ -5124,8 +5124,8 @@ packages:
   /caniuse-lite@1.0.30001588:
     resolution: {integrity: sha512-+hVY9jE44uKLkH0SrUTqxjxqNTOWHsbnQDIKjwkZ3lNTzUUVdBLBGXtj/q5Mp5u98r3droaZAewQuEDzjQdZlQ==}
 
-  /caniuse-lite@1.0.30001598:
-    resolution: {integrity: sha512-j8mQRDziG94uoBfeFuqsJUNECW37DXpnvhcMJMdlH2u3MRkq1sAI0LJcXP1i/Py0KbSIC4UDj8YHPrTn5YsL+Q==}
+  /caniuse-lite@1.0.30001599:
+    resolution: {integrity: sha512-LRAQHZ4yT1+f9LemSMeqdMpMxZcc4RMWdj4tiFe3G8tNkWK+E58g+/tzotb5cU6TbcVJLr4fySiAW7XmxQvZQA==}
     dev: false
 
   /capital-case@1.0.4:
@@ -5755,8 +5755,8 @@ packages:
       which-typed-array: 1.1.14
     dev: true
 
-  /es-abstract@1.23.0:
-    resolution: {integrity: sha512-vmuE7Uoevk2xkwu5Gwa7RfJk/ebVV6xRv7KuZNbUglmJHhWPMbLL20ztreVpBbdxBZijETx3Aml3NssX4SFMvQ==}
+  /es-abstract@1.23.1:
+    resolution: {integrity: sha512-r+YVn6hTqQb+P5kK0u3KeDqrmhHKm+OhU/Mw4jSL4eQtOxXmp75fXIUUb3sUqFZOlb/YtW5JRaIfEC3UyjYUZQ==}
     engines: {node: '>= 0.4'}
     dependencies:
       array-buffer-byte-length: 1.0.1
@@ -5768,6 +5768,7 @@ packages:
       data-view-byte-offset: 1.0.0
       es-define-property: 1.0.0
       es-errors: 1.3.0
+      es-object-atoms: 1.0.0
       es-set-tostringtag: 2.0.3
       es-to-primitive: 1.2.1
       function.prototype.name: 1.1.6
@@ -5826,7 +5827,7 @@ packages:
     dependencies:
       call-bind: 1.0.7
       define-properties: 1.2.1
-      es-abstract: 1.23.0
+      es-abstract: 1.23.1
       es-errors: 1.3.0
       es-set-tostringtag: 2.0.3
       function-bind: 1.1.2
@@ -7432,7 +7433,7 @@ packages:
       define-properties: 1.2.1
       get-intrinsic: 1.2.4
       has-symbols: 1.0.3
-      reflect.getprototypeof: 1.0.5
+      reflect.getprototypeof: 1.0.6
       set-function-name: 2.0.2
     dev: true
 
@@ -7827,8 +7828,8 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: true
 
-  /msw@2.2.5(typescript@5.4.2):
-    resolution: {integrity: sha512-9JTDvKTc7Weu8iF0JQeW3+ispwR12rJyHgqncoTBdQZ4L41Acm09i8CViY2c2ULaVTFhhorDwECR27QiXpPw5g==}
+  /msw@2.2.6(typescript@5.4.2):
+    resolution: {integrity: sha512-c33yy8/ahOqvE/OGy0rz4CZx9/EZAiYq8PLAGSW3pU5fje2MAd7yiBr2o6D5bRJtkJ9j4ekGtDS3Fj61Sp9zSQ==}
     engines: {node: '>=18'}
     hasBin: true
     requiresBuild: true
@@ -7900,7 +7901,7 @@ packages:
       '@next/env': 14.1.3
       '@swc/helpers': 0.5.2
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001598
+      caniuse-lite: 1.0.30001599
       graceful-fs: 4.2.11
       postcss: 8.4.31
       react: 18.2.0
@@ -8260,7 +8261,7 @@ packages:
     dependencies:
       nanoid: 3.3.7
       picocolors: 1.0.0
-      source-map-js: 1.0.2
+      source-map-js: 1.1.0
     dev: false
 
   /prelude-ls@1.2.1:
@@ -8382,13 +8383,13 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
-  /reflect.getprototypeof@1.0.5:
-    resolution: {integrity: sha512-62wgfC8dJWrmxv44CA36pLDnP6KKl3Vhxb7PL+8+qrrFMMoJij4vgiMP8zV4O8+CBMXY1mHxI5fITGHXFHVmQQ==}
+  /reflect.getprototypeof@1.0.6:
+    resolution: {integrity: sha512-fmfw4XgoDke3kdI6h4xcUz1dG8uaiv5q9gcEwLS4Pnth2kxT+GZ7YehS1JTMGBQmtV7Y4GFGbs2re2NqhdozUg==}
     engines: {node: '>= 0.4'}
     dependencies:
       call-bind: 1.0.7
       define-properties: 1.2.1
-      es-abstract: 1.23.0
+      es-abstract: 1.23.1
       es-errors: 1.3.0
       get-intrinsic: 1.2.4
       globalthis: 1.0.3
@@ -8788,8 +8789,8 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /source-map-js@1.0.2:
-    resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}
+  /source-map-js@1.1.0:
+    resolution: {integrity: sha512-9vC2SfsJzlej6MAaMPLu8HiBSHGdRAJ9hVFYN1ibZoNkeanmDmLUcIrj6G9DGL7XMJ54AKg/G75akXl1/izTOw==}
     engines: {node: '>=0.10.0'}
     dev: false
 
@@ -8894,7 +8895,7 @@ packages:
     dependencies:
       call-bind: 1.0.7
       define-properties: 1.2.1
-      es-abstract: 1.23.0
+      es-abstract: 1.23.1
       es-object-atoms: 1.0.0
     dev: true
 
