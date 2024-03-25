@@ -127,13 +127,13 @@ importers:
     dependencies:
       '@apollo/client':
         specifier: ^3.9.9
-        version: 3.9.9(@types/react@18.2.69)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
+        version: 3.9.9(@types/react@18.2.70)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
       '@types/node':
         specifier: ^20.11.30
         version: 20.11.30
       '@types/react':
-        specifier: ^18.2.69
-        version: 18.2.69
+        specifier: ^18.2.70
+        version: 18.2.70
       cross-env:
         specifier: ^7.0.3
         version: 7.0.3
@@ -326,7 +326,7 @@ packages:
       graphql: 16.8.1
     dev: true
 
-  /@apollo/client@3.9.9(@types/react@18.2.69)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0):
+  /@apollo/client@3.9.9(@types/react@18.2.70)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-/sMecU/M0WK9knrguts1lSLV8xFKzIgOMVb4mi6MOxgJXjliDB8PvOtmXhTqh2cVMMR4TzXgOnb+af/690zlQw==}
     peerDependencies:
       graphql: ^15.0.0 || ^16.0.0
@@ -355,7 +355,7 @@ packages:
       prop-types: 15.8.1
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      rehackt: 0.0.6(@types/react@18.2.69)(react@18.2.0)
+      rehackt: 0.0.6(@types/react@18.2.70)(react@18.2.0)
       response-iterator: 0.2.6
       symbol-observable: 4.0.0
       ts-invariant: 0.10.3
@@ -418,7 +418,7 @@ packages:
       '@types/node-fetch': 2.6.11
       async-retry: 1.3.3
       cors: 2.8.5
-      express: 4.19.1
+      express: 4.19.2
       graphql: 16.8.1
       loglevel: 1.9.1
       lru-cache: 7.18.3
@@ -3305,7 +3305,7 @@ packages:
       '@apollo/client': ^3
       graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0
     dependencies:
-      '@apollo/client': 3.9.9(@types/react@18.2.69)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
+      '@apollo/client': 3.9.9(@types/react@18.2.70)(graphql@16.8.1)(react-dom@18.2.0)(react@18.2.0)
       '@graphql-typed-document-node/core': 1.0.0(graphql@16.8.1)
       graphql: 16.8.1
     dev: true
@@ -4285,8 +4285,8 @@ packages:
     resolution: {integrity: sha512-hKormJbkJqzQGhziax5PItDUTMAM9uE2XXQmM37dyd4hVM+5aVl7oVxMVUiVQn2oCQFN/LKCZdvSM0pFRqbSmQ==}
     dev: true
 
-  /@types/react@18.2.69:
-    resolution: {integrity: sha512-W1HOMUWY/1Yyw0ba5TkCV+oqynRjG7BnteBB+B7JmAK7iw3l2SW+VGOxL+akPweix6jk2NNJtyJKpn4TkpfK3Q==}
+  /@types/react@18.2.70:
+    resolution: {integrity: sha512-hjlM2hho2vqklPhopNkXkdkeq6Lv8WSZTpr7956zY+3WS5cfYUewtCzsJLsbW5dEv3lfSeQ4W14ZFeKC437JRQ==}
     dependencies:
       '@types/prop-types': 15.7.12
       '@types/scheduler': 0.16.8
@@ -6448,8 +6448,8 @@ packages:
     engines: {node: '>=0.4.x'}
     dev: false
 
-  /express@4.19.1:
-    resolution: {integrity: sha512-K4w1/Bp7y8iSiVObmCrtq8Cs79XjJc/RU2YYkZQ7wpUu5ZyZ7MtPHkqoMz4pf+mgXfNvo2qft8D9OnrH2ABk9w==}
+  /express@4.19.2:
+    resolution: {integrity: sha512-5T6nhjsT+EOMzuck8JjBHARTHfMht0POzlA60WV2pMD3gyXw2LZnZ+ueGdNxG+0calOJcWKbpFcuzLZ91YWq9Q==}
     engines: {node: '>= 0.10.0'}
     dependencies:
       accepts: 1.3.8
@@ -7883,7 +7883,7 @@ packages:
       outvariant: 1.4.2
       path-to-regexp: 6.2.1
       strict-event-emitter: 0.5.1
-      type-fest: 4.13.1
+      type-fest: 4.14.0
       typescript: 5.4.3
       yargs: 17.7.2
     dev: true
@@ -8441,7 +8441,7 @@ packages:
       set-function-name: 2.0.1
     dev: true
 
-  /rehackt@0.0.6(@types/react@18.2.69)(react@18.2.0):
+  /rehackt@0.0.6(@types/react@18.2.70)(react@18.2.0):
     resolution: {integrity: sha512-l3WEzkt4ntlEc/IB3/mF6SRgNHA6zfQR7BlGOgBTOmx7IJJXojDASav+NsgXHFjHn+6RmwqsGPFgZpabWpeOdw==}
     peerDependencies:
       '@types/react': '*'
@@ -8452,7 +8452,7 @@ packages:
       react:
         optional: true
     dependencies:
-      '@types/react': 18.2.69
+      '@types/react': 18.2.70
       react: 18.2.0
 
   /relay-runtime@12.0.0(encoding@0.1.13):
@@ -9193,8 +9193,8 @@ packages:
     engines: {node: '>=12.20'}
     dev: true
 
-  /type-fest@4.13.1:
-    resolution: {integrity: sha512-ASMgM+Vf2cLwDMt1KXSkMUDSYCxtckDJs8zsaVF/mYteIsiARKCVtyXtcK38mIKbLTctZP8v6GMqdNaeI3fo7g==}
+  /type-fest@4.14.0:
+    resolution: {integrity: sha512-on5/Cw89wwqGZQu+yWO0gGMGu8VNxsaW9SB2HE8yJjllEk7IDTwnSN1dUVldYILhYPN5HzD7WAaw2cc/jBfn0Q==}
     engines: {node: '>=16'}
     dev: true
 
