@@ -22,7 +22,7 @@
     "all": "pnpm build"
   },
   "dependencies": {
-    "@apollo/client": "^3.9.9",
+    "@apollo/client": "^3.9.10",
     "@types/node": "^20.12.2",
     "@types/react": "^18.2.73",
     "cross-env": "^7.0.3",
