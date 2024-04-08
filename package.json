@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
     "lint-fix": "pnpm -r lint-fix",
     "prelint-fix": "pnpm -r install",
     "prebuild": "pnpm -r install"
@@ -16,5 +18,23 @@
     "npm": "use pnpm please!",
     "yarn": "use pnpm please!",
     "pnpm": ">=8.7.4"
+  },
+  "devDependencies": {
+    "@graphql-eslint/eslint-plugin": "^3.20.1",
+    "@typescript-eslint/eslint-plugin": "^7.6.0",
+    "@typescript-eslint/parser": "^7.6.0",
+    "eslint": "^9.0.0",
+    "eslint-config-import": "^0.13.0",
+    "eslint-config-next": "^14.1.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-flowtype": "^8.0.3",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-storybook": "^0.8.0",
+    "prettier": "^3.2.5"
   }
 }
