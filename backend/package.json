@@ -22,7 +22,7 @@
   "devDependencies": {
     "@apollo/server": "^4.10.2",
     "@as-integrations/aws-lambda": "^3.1.0",
-    "@aws-lambda-powertools/logger": "^2.0.3",
+    "@aws-lambda-powertools/logger": "^2.0.4",
     "@graphql-codegen/cli": "^5.0.2",
     "@graphql-codegen/introspection": "^4.0.3",
     "@graphql-codegen/jsdoc": "^3.0.0",
@@ -38,7 +38,7 @@
     "graphql-codegen-typescript-validation-schema": "^0.14.1",
     "log4js": "^6.9.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.4.4",
+    "typescript": "^5.4.5",
     "yup": "^1.4.0"
   },
   "dependencies": {
