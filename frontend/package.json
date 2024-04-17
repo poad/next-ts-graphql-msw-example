@@ -42,7 +42,7 @@
     "@graphql-typed-document-node/core": "^3.2.0",
     "@next/bundle-analyzer": "^14.2.1",
     "encoding": "^0.1.13",
-    "msw": "^2.2.13",
+    "msw": "^2.2.14",
     "rimraf": "^5.0.5"
   },
   "msw": {
