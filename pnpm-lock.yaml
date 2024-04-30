@@ -1312,6 +1312,12 @@ packages:
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
 
+  '@graphql-tools/merge@9.0.4':
+    resolution: {integrity: sha512-MivbDLUQ+4Q8G/Hp/9V72hbn810IJDEZQ57F01sHnlrrijyadibfVhaQfW/pNH+9T/l8ySZpaR/DpL5i+ruZ+g==}
+    engines: {node: '>=16.0.0'}
+    peerDependencies:
+      graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+
   '@graphql-tools/optimize@1.4.0':
     resolution: {integrity: sha512-dJs/2XvZp+wgHH8T5J2TqptT9/6uVzIYvA6uFACha+ufvdMBedkfR4b4GbT8jAKLRARiqRTxy3dctnwkTM2tdw==}
     peerDependencies:
@@ -2241,8 +2247,8 @@ packages:
     resolution: {integrity: sha512-9GNFMRrEMG5y3Jvv+V4azWvc+qNWdWLTjDdhf/zgMlz8haaaLWv0xeAIWxz9PuWUBawsVxy0zZotjCdR3Xq+2w==}
     hasBin: true
 
-  aws-sdk@2.1609.0:
-    resolution: {integrity: sha512-l5RiTld8f0AtxgSN2hXkuM/PPD04UHm4yfnJR6NpuQ+VSCl9RQfdNFUlnnVrJPd2hcoq/qz/gQiBVPjFqGAZwQ==}
+  aws-sdk@2.1610.0:
+    resolution: {integrity: sha512-+s4NmrB4wc4AzJcBwdwBy2UrLyOKMtRNzyqtkUF+j9qAeuoVBrGzxMCW82T8hayCxO2V4DamB2kvbDgLkpPhMg==}
     engines: {node: '>= 10.0.0'}
 
   axe-core@4.7.0:
@@ -6399,6 +6405,12 @@ snapshots:
       graphql: 16.8.1
       tslib: 2.6.2
 
+  '@graphql-tools/merge@9.0.4(graphql@16.8.1)':
+    dependencies:
+      '@graphql-tools/utils': 10.2.0(graphql@16.8.1)
+      graphql: 16.8.1
+      tslib: 2.6.2
+
   '@graphql-tools/optimize@1.4.0(graphql@16.8.1)':
     dependencies:
       graphql: 16.8.1
@@ -6457,7 +6469,7 @@ snapshots:
 
   '@graphql-tools/schema@10.0.3(graphql@16.8.1)':
     dependencies:
-      '@graphql-tools/merge': 9.0.3(graphql@16.8.1)
+      '@graphql-tools/merge': 9.0.4(graphql@16.8.1)
       '@graphql-tools/utils': 10.2.0(graphql@16.8.1)
       graphql: 16.8.1
       tslib: 2.6.2
@@ -7601,12 +7613,12 @@ snapshots:
 
   aws-lambda@1.0.7:
     dependencies:
-      aws-sdk: 2.1609.0
+      aws-sdk: 2.1610.0
       commander: 3.0.2
       js-yaml: 3.14.1
       watchpack: 2.4.1
 
-  aws-sdk@2.1609.0:
+  aws-sdk@2.1610.0:
     dependencies:
       buffer: 4.9.2
       events: 1.1.1
