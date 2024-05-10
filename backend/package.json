@@ -4,14 +4,15 @@
   "bin": {
     "backend": "bin/backend.js"
   },
+  "type": "module",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
     "cdk": "cdk",
     "prettier:check": "prettier --check bin lib lambda",
-    "eslint:check": "eslint './{bin,lib,lambda}/**/*.ts'",
+    "eslint:check": "eslint",
     "prettier:fix": "prettier --write bin lib lambda",
-    "eslint:fix": "eslint --fix './{bin,lib,lambda}/**/*.ts'",
+    "eslint:fix": "eslint --fix",
     "lint": "pnpm run --parallel /^.*:check/",
     "lint-fix": "pnpm run /^.*:fix/",
     "clean": "rimraf build",

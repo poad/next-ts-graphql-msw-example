@@ -1,16 +1,16 @@
+// @ts-chrck
+
 import nextPlugin from '@next/eslint-plugin-next';
 import reactPlugin from 'eslint-plugin-react';
 import hooksPlugin from 'eslint-plugin-react-hooks';
 import storybookPlugin from 'eslint-plugin-storybook';
 import flowtypePlugin from 'eslint-plugin-flowtype';
-import typescriptParser from '@typescript-eslint/parser';
+import tseslint from 'typescript-eslint';
 
-export default [
+export default tseslint.config(
   {
-    languageOptions: {
-      parser: typescriptParser
-    },
-    files: ['**/*.ts', '**/*.tsx'],
+    files: [ '*.{ts,tsx,js}' ],
+    ignores: ['./.next/*', './frontend/public/mockServiceWorker.js'],
     plugins: {
       react: reactPlugin,
       'react-hooks': hooksPlugin,
@@ -28,7 +28,4 @@ export default [
       '@next/next/no-page-custom-font': 'off',
     },
   },
-  {
-    ignores: ['./.next/*'],
-  },
-];
+);

@@ -9,9 +9,9 @@
     "watch": "tsc -w",
     "cdk": "cdk",
     "prettier:check": "prettier --check bin lib",
-    "eslint:check": "eslint './{bin,lib}/**/*.ts'",
+    "eslint:check": "eslint",
     "prettier:fix": "prettier --write bin lib",
-    "eslint:fix": "eslint --fix './{bin,lib}/**/*.ts'",
+    "eslint:fix": "eslint --fix",
     "lint": "pnpm run --parallel /.*:check/",
     "lint-fix": "pnpm run /.*:fix/",
     "prebuild": "pnpm lint"
