@@ -17,10 +17,9 @@
     "clean": "rimraf build",
     "generate": "graphql-codegen --config codegen.yml",
     "pretest": "pnpm build",
-    "prebuild": "pnpm lint",
     "postgenerate": "pnpm build",
     "analyze": "cross-env ANALYZE=true pnpm build",
-    "all": "pnpm build"
+    "all": "pnpm lint && pnpm build"
   },
   "dependencies": {
     "@apollo/client": "^3.10.3",
