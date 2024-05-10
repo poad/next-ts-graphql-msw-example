@@ -20,7 +20,7 @@ export const nextJsExport = ({ apiUrl }: { apiUrl: string }) => {
 
   console.log(apiUrl);
 
-  ["pnpm all"].forEach((cmd) => {
+  ["pnpm build"].forEach((cmd) => {
     childProcess.execSync(cmd, {
       cwd: `${process.cwd()}/../`,
       stdio: ["ignore", "inherit", "inherit"],
