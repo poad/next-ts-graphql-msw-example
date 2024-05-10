@@ -11,6 +11,6 @@ const config =  {
   },
 };
 
-export default withBundleAnalyzer(config)({
+export default withBundleAnalyzer({
   enabled: process.env.ANALYZE === 'true',
-});
+})(config);
