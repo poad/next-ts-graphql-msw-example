@@ -40,4 +40,4 @@ jobs:
     - name: Build
       env:
         CI: true
-      run: pnpm all
+      run: pnpm lint && pnpm build
