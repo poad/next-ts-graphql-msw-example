@@ -34,7 +34,7 @@ jobs:
       name: Install pnpm
       with:
         run_install: |
-          - recursive: true
+          - recursive: false
             args: [--no-frozen-lockfile]
 
     - name: Build
