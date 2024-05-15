@@ -20,7 +20,7 @@
     "all": "pnpm lint && pnpm build"
   },
   "dependencies": {
-    "@apollo/client": "^3.10.3",
+    "@apollo/client": "^3.10.4",
     "@types/node": "^20.12.12",
     "@types/react": "^18.3.2",
     "cross-env": "^7.0.3",
