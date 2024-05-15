@@ -9,8 +9,8 @@ import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
   {
-    files: [ '*.{ts,tsx,js}' ],
-    ignores: ['./.next/*', './frontend/public/mockServiceWorker.js'],
+    files: [ '*.{ts,tsx}' ],
+    ignores: ['./.next/*', './frontend/public/mockServiceWorker.js', './backend/lambda/generated'],
     plugins: {
       react: reactPlugin,
       'react-hooks': hooksPlugin,
