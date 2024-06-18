@@ -17,9 +17,9 @@
     "lint-fix": "pnpm run /.*:fix/"
   },
   "devDependencies": {
-    "@types/node": "^20.14.2",
+    "@types/node": "^20.14.4",
     "aws-cdk": "^2.146.0",
-    "eslint": "^9.4.0",
+    "eslint": "^9.5.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   },
