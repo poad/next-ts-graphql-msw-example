@@ -15,7 +15,11 @@ updates:
           - '*'
 
   - package-ecosystem: npm
-    directory: '/'
+    directories:
+      - '/'
+      - '/backend/'
+      - '/frontend/'
+      - '/frontend/cdk/'
     schedule:
       interval: daily
       timezone: Asia/Tokyo
@@ -26,50 +30,5 @@ updates:
       - poad
     groups:
       npm:
-        patterns:
-          - '*'
-
-  - package-ecosystem: npm
-    directory: '/backend/'
-    schedule:
-      interval: daily
-      timezone: Asia/Tokyo
-    allow:
-      - dependency-type: all
-    rebase-strategy: auto
-    assignees:
-      - poad
-    groups:
-      backend:
-        patterns:
-          - '*'
-
-  - package-ecosystem: npm
-    directory: '/frontend/'
-    schedule:
-      interval: daily
-      timezone: Asia/Tokyo
-    allow:
-      - dependency-type: all
-    rebase-strategy: auto
-    assignees:
-      - poad
-    groups:
-      frontend:
-        patterns:
-          - '*'
-
-  - package-ecosystem: npm
-    directory: '/frontend/cdk/'
-    schedule:
-      interval: daily
-      timezone: Asia/Tokyo
-    allow:
-      - dependency-type: all
-    rebase-strategy: auto
-    assignees:
-      - poad
-    groups:
-      frontend-cdk:
         patterns:
           - '*'
