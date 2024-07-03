@@ -15,7 +15,7 @@ const QUERY = gql`
   }
 `;
 
-const Pokemons = (): JSX.Element => {
+function Pokemons(): JSX.Element {
   const { data, loading, error } = useQuery<QueryPokemonListQuery>(QUERY);
 
   if (loading) {
@@ -37,5 +37,6 @@ const Pokemons = (): JSX.Element => {
       ))}
     </main>
   );
-};
+}
+
 export default Pokemons;

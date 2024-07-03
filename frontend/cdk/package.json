@@ -10,11 +10,11 @@
     "watch": "tsc -w",
     "cdk": "cdk",
     "prettier:fix": "prettier --write ./{bin,lib}/**/*.ts",
-    "eslint:fix": "eslint --fix",
+    "eslint:fix": "eslint --fix '{bin,lib}/**/*.ts'",
     "prettier:check": "prettier --check ./{bin,lib}/**/*.ts",
-    "eslint:check": "eslint",
-    "lint": "pnpm run --parallel /.*:check/",
-    "lint-fix": "pnpm run /.*:fix/"
+    "eslint:check": "eslint '{bin,lib}/**/*.ts'",
+    "lint": "pnpm run --parallel --filter '@next-ts-cloudfront-ssg-with-backend-template/cdk' /.*:check$/",
+    "lint-fix": "pnpm run --filter '@next-ts-cloudfront-ssg-with-backend-template/cdk' /.*:fix$/"
   },
   "devDependencies": {
     "@types/node": "^20.14.9",

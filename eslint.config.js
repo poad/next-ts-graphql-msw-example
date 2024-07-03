@@ -8,12 +8,23 @@ import flowtypePlugin from 'eslint-plugin-flowtype';
 import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
+  ...tseslint.configs.recommended,
   {
-    files: [ '*.{ts,tsx}' ],
     ignores: [
       '.next',
-      './frontend/public/mockServiceWorker.js',
-      './backend/lambda/generated'
+      'public/mockServiceWorker.js',
+      '**/*.d.ts',
+      'out',
+      '**/src/gql/**/*.*',
+      'cdk.out',
+      '**/lambda/generated/**/*.*',
+    ],
+  },
+  {
+    files: [
+      'src/**/*.{ts,tsx}',
+      '{bin,lib,lambda}/**/*.ts',
+      '{bin,lib}/**/*.ts',
     ],
     plugins: {
       react: reactPlugin,
