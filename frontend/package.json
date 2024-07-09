@@ -41,7 +41,7 @@
     "@next/bundle-analyzer": "^14.2.4",
     "encoding": "^0.1.13",
     "msw": "^2.3.1",
-    "rimraf": "^5.0.8"
+    "rimraf": "^5.0.9"
   },
   "msw": {
     "workerDirectory": "public"
