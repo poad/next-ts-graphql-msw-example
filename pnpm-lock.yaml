@@ -109,8 +109,8 @@ importers:
         specifier: ^10.0.4
         version: 10.0.4(graphql@16.9.0)
       '@types/aws-lambda':
-        specifier: ^8.10.140
-        version: 8.10.140
+        specifier: ^8.10.141
+        version: 8.10.141
       '@types/node':
         specifier: ^20.14.10
         version: 20.14.10
@@ -1889,8 +1889,8 @@ packages:
   '@tsconfig/node16@1.0.4':
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
 
-  '@types/aws-lambda@8.10.140':
-    resolution: {integrity: sha512-4Dh3dk2TUcbdfHrX0Al90mNGJDvA9NBiTQPzbrjGi/dLxzKCGOYgT8YQ47jUKNFALkAJAadifq0pzyjIUlhVhg==}
+  '@types/aws-lambda@8.10.141':
+    resolution: {integrity: sha512-SMWlRBukG9KV8ZNjwemp2AzDibp/czIAeKKTw09nCPbWxVskIxactCJCGOp4y6I1hCMY7T7UGfySvBLXNeUbEw==}
 
   '@types/body-parser@1.19.5':
     resolution: {integrity: sha512-fB3Zu92ucau0iQ0JMCFQE7b/dv8Ot07NI3KaZIkIUNXq82k4eBAqUaneXfleGY9JWskeS9y+u0nXMyspcuQrCg==}
@@ -2375,8 +2375,8 @@ packages:
     resolution: {integrity: sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==}
     engines: {node: '>=6'}
 
-  caniuse-lite@1.0.30001640:
-    resolution: {integrity: sha512-lA4VMpW0PSUrFnkmVuEKBUovSWKhj7puyCg8StBChgu298N1AtuF1sKWEvfDuimSEDbhlb/KqPKC3fs1HbuQUA==}
+  caniuse-lite@1.0.30001641:
+    resolution: {integrity: sha512-Phv5thgl67bHYo1TtMY/MurjkHhV4EDaCosezRXgZ8jzA/Ub+wjxAvbGvjoFENStinwi5kCyOYV3mi5tOGykwA==}
 
   capital-case@1.0.4:
     resolution: {integrity: sha512-ds37W8CytHgwnhGGTi88pcPyR15qoNkOpYwmMMfnWqqWgESapLqvDx6huFjQ5vqWSn2Z06173XNA7LtMOeUh1A==}
@@ -4942,7 +4942,7 @@ snapshots:
   '@as-integrations/aws-lambda@3.1.0(@apollo/server@4.10.4(encoding@0.1.13)(graphql@16.9.0))':
     dependencies:
       '@apollo/server': 4.10.4(encoding@0.1.13)(graphql@16.9.0)
-      '@types/aws-lambda': 8.10.140
+      '@types/aws-lambda': 8.10.141
 
   '@aws-cdk/asset-awscli-v1@2.2.202': {}
 
@@ -7318,7 +7318,7 @@ snapshots:
 
   '@tsconfig/node16@1.0.4': {}
 
-  '@types/aws-lambda@8.10.140': {}
+  '@types/aws-lambda@8.10.141': {}
 
   '@types/body-parser@1.19.5':
     dependencies:
@@ -7902,7 +7902,7 @@ snapshots:
 
   browserslist@4.23.1:
     dependencies:
-      caniuse-lite: 1.0.30001640
+      caniuse-lite: 1.0.30001641
       electron-to-chromium: 1.4.818
       node-releases: 2.0.14
       update-browserslist-db: 1.1.0(browserslist@4.23.1)
@@ -7947,7 +7947,7 @@ snapshots:
 
   camelcase@5.3.1: {}
 
-  caniuse-lite@1.0.30001640: {}
+  caniuse-lite@1.0.30001641: {}
 
   capital-case@1.0.4:
     dependencies:
@@ -9620,7 +9620,7 @@ snapshots:
       '@next/env': 14.2.4
       '@swc/helpers': 0.5.5
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001640
+      caniuse-lite: 1.0.30001641
       graceful-fs: 4.2.11
       postcss: 8.4.31
       react: 18.3.1
