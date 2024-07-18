@@ -22,7 +22,7 @@
   "devDependencies": {
     "@apollo/server": "^4.10.4",
     "@as-integrations/aws-lambda": "^3.1.0",
-    "@aws-lambda-powertools/logger": "^2.4.0",
+    "@aws-lambda-powertools/logger": "^2.5.0",
     "@graphql-codegen/cli": "^5.0.2",
     "@graphql-codegen/introspection": "^4.0.3",
     "@graphql-codegen/jsdoc": "^3.0.0",
@@ -32,7 +32,7 @@
     "@graphql-tools/load": "^8.0.2",
     "@graphql-tools/schema": "^10.0.4",
     "@types/aws-lambda": "^8.10.141",
-    "@types/node": "^20.14.10",
+    "@types/node": "^20.14.11",
     "aws-cdk": "^2.149.0",
     "esbuild": "^0.23.0",
     "graphql-codegen-typescript-validation-schema": "^0.15.0",
