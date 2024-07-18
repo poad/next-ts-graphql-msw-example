@@ -35,7 +35,7 @@
     "@types/node": "^20.14.11",
     "aws-cdk": "^2.149.0",
     "esbuild": "^0.23.0",
-    "graphql-codegen-typescript-validation-schema": "^0.15.0",
+    "graphql-codegen-typescript-validation-schema": "^0.16.0",
     "log4js": "^6.9.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.3",
