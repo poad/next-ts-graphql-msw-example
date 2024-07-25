@@ -82,8 +82,8 @@ importers:
         specifier: ^3.1.0
         version: 3.1.0(@apollo/server@4.10.5(encoding@0.1.13)(graphql@16.9.0))
       '@aws-lambda-powertools/logger':
-        specifier: ^2.5.0
-        version: 2.5.0
+        specifier: ^2.6.0
+        version: 2.6.0
       '@graphql-codegen/cli':
         specifier: ^5.0.2
         version: 5.0.2(@types/node@20.14.12)(encoding@0.1.13)(graphql@16.9.0)(typescript@5.5.4)
@@ -386,11 +386,11 @@ packages:
   '@aws-crypto/util@5.2.0':
     resolution: {integrity: sha512-4RkU9EsI6ZpBve5fseQlGNUWKMa1RLPQ1dnjnQoe07ldfIzcsGb5hC5W0Dm7u423KWzawlrpbjXBrXCEv9zazQ==}
 
-  '@aws-lambda-powertools/commons@2.5.0':
-    resolution: {integrity: sha512-6LTrCWknv/ey7akvEojN5qoAC2Hbb8twseYX7Efdigxs9+AadcM+P74Qh7BsMSvEiHdsIefHqtb4b13WOhFsJw==}
+  '@aws-lambda-powertools/commons@2.6.0':
+    resolution: {integrity: sha512-mvJXwd+HUfc4K5OuKhMQv0i8UXkNt55yL42AZHmHV0Vd1fzixJ2xuKC6xyav+W/v8HnBsECHa1UgHt4qa4jK7A==}
 
-  '@aws-lambda-powertools/logger@2.5.0':
-    resolution: {integrity: sha512-lNnjvI7H3g6tpnwia8laPclzq5vzsUNlVp89FPbgs/KdSqnp5XaeNhsMGwFVy5QDHttEGI2OrsgAOFbNcf936Q==}
+  '@aws-lambda-powertools/logger@2.6.0':
+    resolution: {integrity: sha512-etoyhdJhlfjSRljWIQoDKPKqM2efbdJ3K0TQIUVNskJVQIQwa973/zuW80Q+aQbtXOtpN5YOlSCt6+KKHG9h7Q==}
     peerDependencies:
       '@middy/core': 4.x || 5.x
     peerDependenciesMeta:
@@ -2694,8 +2694,8 @@ packages:
   electron-to-chromium@1.4.818:
     resolution: {integrity: sha512-eGvIk2V0dGImV9gWLq8fDfTTsCAeMDwZqEPMr+jMInxZdnp9Us8UpovYpRCf9NQ7VOFgrN2doNSgvISbsbNpxA==}
 
-  electron-to-chromium@1.5.0:
-    resolution: {integrity: sha512-Vb3xHHYnLseK8vlMJQKJYXJ++t4u1/qJ3vykuVrVjvdiOEhYyT1AuP4x03G8EnPmYvYOhe9T+dADTmthjRQMkA==}
+  electron-to-chromium@1.5.1:
+    resolution: {integrity: sha512-FKbOCOQ5QRB3VlIbl1LZQefWIYwszlBloaXcY2rbfpu9ioJnNh3TK03YtIDKDo3WKBi8u+YV4+Fn2CkEozgf4w==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -5045,11 +5045,11 @@ snapshots:
       '@smithy/util-utf8': 2.3.0
       tslib: 2.6.3
 
-  '@aws-lambda-powertools/commons@2.5.0': {}
+  '@aws-lambda-powertools/commons@2.6.0': {}
 
-  '@aws-lambda-powertools/logger@2.5.0':
+  '@aws-lambda-powertools/logger@2.6.0':
     dependencies:
-      '@aws-lambda-powertools/commons': 2.5.0
+      '@aws-lambda-powertools/commons': 2.6.0
       lodash.merge: 4.6.2
 
   '@aws-sdk/client-s3@3.617.0':
@@ -7999,7 +7999,7 @@ snapshots:
   browserslist@4.23.2:
     dependencies:
       caniuse-lite: 1.0.30001643
-      electron-to-chromium: 1.5.0
+      electron-to-chromium: 1.5.1
       node-releases: 2.0.18
       update-browserslist-db: 1.1.0(browserslist@4.23.2)
 
@@ -8351,7 +8351,7 @@ snapshots:
 
   electron-to-chromium@1.4.818: {}
 
-  electron-to-chromium@1.5.0: {}
+  electron-to-chromium@1.5.1: {}
 
   emoji-regex@8.0.0: {}
 
