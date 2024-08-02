@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@apollo/client": "^3.11.2",
-    "@types/node": "^22.0.2",
+    "@types/node": "^22.0.3",
     "@types/react": "^18.3.3",
     "cross-env": "^7.0.3",
     "graphql": "^16.9.0",
