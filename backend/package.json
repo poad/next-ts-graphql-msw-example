@@ -31,7 +31,7 @@
     "@graphql-tools/graphql-file-loader": "^8.0.1",
     "@graphql-tools/load": "^8.0.2",
     "@graphql-tools/schema": "^10.0.4",
-    "@types/aws-lambda": "^8.10.142",
+    "@types/aws-lambda": "^8.10.143",
     "@types/node": "^22.1.0",
     "aws-cdk": "^2.151.0",
     "esbuild": "^0.23.0",
