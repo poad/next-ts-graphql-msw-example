@@ -60,8 +60,8 @@ importers:
         specifier: ^3.637.0
         version: 3.637.0
       aws-cdk-lib:
-        specifier: ^2.154.1
-        version: 2.154.1(constructs@10.3.0)
+        specifier: ^2.155.0
+        version: 2.155.0(constructs@10.3.0)
       aws-lambda:
         specifier: ^1.0.7
         version: 1.0.7
@@ -115,8 +115,8 @@ importers:
         specifier: ^22.5.1
         version: 22.5.1
       aws-cdk:
-        specifier: ^2.154.1
-        version: 2.154.1
+        specifier: ^2.155.0
+        version: 2.155.0
       esbuild:
         specifier: ^0.23.1
         version: 0.23.1
@@ -140,13 +140,13 @@ importers:
     dependencies:
       '@apollo/client':
         specifier: ^3.11.5
-        version: 3.11.5(@types/react@18.3.4)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 3.11.5(@types/react@18.3.5)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@types/node':
         specifier: ^22.5.1
         version: 22.5.1
       '@types/react':
-        specifier: ^18.3.4
-        version: 18.3.4
+        specifier: ^18.3.5
+        version: 18.3.5
       cross-env:
         specifier: ^7.0.3
         version: 7.0.3
@@ -177,13 +177,13 @@ importers:
         version: 4.3.3(encoding@0.1.13)(graphql@16.9.0)
       '@graphql-codegen/typescript-msw':
         specifier: ^3.0.0
-        version: 3.0.0(encoding@0.1.13)(graphql@16.9.0)(msw@2.4.0(graphql@16.9.0)(typescript@5.5.4))
+        version: 3.0.0(encoding@0.1.13)(graphql@16.9.0)(msw@2.4.1(graphql@16.9.0)(typescript@5.5.4))
       '@graphql-codegen/typescript-react-apollo':
         specifier: ^4.3.0
         version: 4.3.0(encoding@0.1.13)(graphql-tag@2.12.6(graphql@16.9.0))(graphql@16.9.0)
       '@graphql-typed-document-node/apollo-client-3':
         specifier: ^1.0.0
-        version: 1.0.0(@apollo/client@3.11.5(@types/react@18.3.4)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(graphql@16.9.0)
+        version: 1.0.0(@apollo/client@3.11.5(@types/react@18.3.5)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(graphql@16.9.0)
       '@graphql-typed-document-node/core':
         specifier: ^3.2.0
         version: 3.2.0(graphql@16.9.0)
@@ -194,8 +194,8 @@ importers:
         specifier: ^0.1.13
         version: 0.1.13
       msw:
-        specifier: ^2.4.0
-        version: 2.4.0(graphql@16.9.0)(typescript@5.5.4)
+        specifier: ^2.4.1
+        version: 2.4.1(graphql@16.9.0)(typescript@5.5.4)
       rimraf:
         specifier: ^6.0.1
         version: 6.0.1
@@ -203,8 +203,8 @@ importers:
   frontend/cdk:
     dependencies:
       aws-cdk-lib:
-        specifier: ^2.154.1
-        version: 2.154.1(constructs@10.3.0)
+        specifier: ^2.155.0
+        version: 2.155.0(constructs@10.3.0)
       constructs:
         specifier: ^10.3.0
         version: 10.3.0
@@ -219,8 +219,8 @@ importers:
         specifier: ^22.5.1
         version: 22.5.1
       aws-cdk:
-        specifier: ^2.154.1
-        version: 2.154.1
+        specifier: ^2.155.0
+        version: 2.155.0
       eslint:
         specifier: ^9.9.1
         version: 9.9.1(jiti@1.21.6)
@@ -1889,8 +1889,8 @@ packages:
   '@types/range-parser@1.2.7':
     resolution: {integrity: sha512-hKormJbkJqzQGhziax5PItDUTMAM9uE2XXQmM37dyd4hVM+5aVl7oVxMVUiVQn2oCQFN/LKCZdvSM0pFRqbSmQ==}
 
-  '@types/react@18.3.4':
-    resolution: {integrity: sha512-J7W30FTdfCxDDjmfRM+/JqLHBIyl7xUIp9kwK637FGmY7+mkSFSe6L4jpZzhj5QMfLssSDP4/i75AKkrdC7/Jw==}
+  '@types/react@18.3.5':
+    resolution: {integrity: sha512-WeqMfGJLGuLCqHGYRGHxnKrXcTitc6L/nBUWfWPcTarG3t9PsquqUMuVeXZeca+mglY4Vo5GZjCi0A3Or2lnxA==}
 
   '@types/semver@7.5.8':
     resolution: {integrity: sha512-I8EUhyrgfLrcTkzV3TSsGyl1tSuPrEDzr0yd5m90UgNxQkyDXULk3b6MlQqTCpZpNtWe1K0hzclnZkTcLBe2UQ==}
@@ -2204,8 +2204,8 @@ packages:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
 
-  aws-cdk-lib@2.154.1:
-    resolution: {integrity: sha512-XV04/XyNKJ2yyMfYsiSmWx+rIKwTrcrd87p61t4xhE240Iy6Y6LxXVdvkNEOjjbeXVmOUQ7JBG9cW1BeeFiDgg==}
+  aws-cdk-lib@2.155.0:
+    resolution: {integrity: sha512-QGzDhLldBXsyOUmhgtZ98PiOUS2g1Mb5MO08FiOvQn3+KSyJjQdq0GoyxtDpCNGLaWmIfcyrtB9aDhod38fl9g==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       constructs: ^10.0.0
@@ -2222,8 +2222,8 @@ packages:
       - yaml
       - mime-types
 
-  aws-cdk@2.154.1:
-    resolution: {integrity: sha512-yJoLTo+fUHRLD4YQMt/QoOPgiT/daci4I5KcaDK8Cx2fWA0Z3h5U9+bWS3ah+8OeZ91fciNCwt6Yt/0p+cp2GQ==}
+  aws-cdk@2.155.0:
+    resolution: {integrity: sha512-AV7Ym/o7/xyDh6sqcGatWD6Bqa7Swe0OWJq+1srVww0MdBiy5yM3zYAA1+ZeqZNjFQThJPA+pYZQFTgojuaVBA==}
     engines: {node: '>= 14.15.0'}
     hasBin: true
 
@@ -3691,12 +3691,12 @@ packages:
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
-  msw@2.4.0:
-    resolution: {integrity: sha512-NqAjbDvJ66J/VS9KqLmY8ZF6ceQpYRy+s2yJYLl+3vUdNa4C7zouXVDl1TLast/o9gLzPMTrfaTJkeR7qJ41ew==}
+  msw@2.4.1:
+    resolution: {integrity: sha512-HXcoQPzYTwEmVk+BGIcRa0vLabBT+J20SSSeYh/QfajaK5ceA6dlD4ZZjfz2dqGEq4vRNCPLP6eXsB94KllPFg==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
-      graphql: '*'
+      graphql: '>= 16.8.x'
       typescript: '>= 4.7.x'
     peerDependenciesMeta:
       graphql:
@@ -4781,7 +4781,7 @@ snapshots:
     dependencies:
       graphql: 16.9.0
 
-  '@apollo/client@3.11.5(@types/react@18.3.4)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@apollo/client@3.11.5(@types/react@18.3.5)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@graphql-typed-document-node/core': 3.2.0(graphql@16.9.0)
       '@wry/caches': 1.0.1
@@ -4792,7 +4792,7 @@ snapshots:
       hoist-non-react-statics: 3.3.2
       optimism: 0.18.0
       prop-types: 15.8.1
-      rehackt: 0.1.0(@types/react@18.3.4)(react@18.3.1)
+      rehackt: 0.1.0(@types/react@18.3.5)(react@18.3.1)
       response-iterator: 0.2.6
       symbol-observable: 4.0.0
       ts-invariant: 0.10.3
@@ -6128,14 +6128,14 @@ snapshots:
       - encoding
       - supports-color
 
-  '@graphql-codegen/typescript-msw@3.0.0(encoding@0.1.13)(graphql@16.9.0)(msw@2.4.0(graphql@16.9.0)(typescript@5.5.4))':
+  '@graphql-codegen/typescript-msw@3.0.0(encoding@0.1.13)(graphql@16.9.0)(msw@2.4.1(graphql@16.9.0)(typescript@5.5.4))':
     dependencies:
       '@graphql-codegen/plugin-helpers': 3.1.2(graphql@16.9.0)
       '@graphql-codegen/visitor-plugin-common': 2.13.1(encoding@0.1.13)(graphql@16.9.0)
       auto-bind: 4.0.0
       change-case-all: 1.0.15
       graphql: 16.9.0
-      msw: 2.4.0(graphql@16.9.0)(typescript@5.5.4)
+      msw: 2.4.1(graphql@16.9.0)(typescript@5.5.4)
       tslib: 2.6.3
     transitivePeerDependencies:
       - encoding
@@ -6703,9 +6703,9 @@ snapshots:
       tslib: 2.7.0
       value-or-promise: 1.0.12
 
-  '@graphql-typed-document-node/apollo-client-3@1.0.0(@apollo/client@3.11.5(@types/react@18.3.4)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(graphql@16.9.0)':
+  '@graphql-typed-document-node/apollo-client-3@1.0.0(@apollo/client@3.11.5(@types/react@18.3.5)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(graphql@16.9.0)':
     dependencies:
-      '@apollo/client': 3.11.5(@types/react@18.3.4)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@apollo/client': 3.11.5(@types/react@18.3.5)(graphql-ws@5.16.0(graphql@16.9.0))(graphql@16.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@graphql-typed-document-node/core': 1.0.0(graphql@16.9.0)
       graphql: 16.9.0
 
@@ -7313,7 +7313,7 @@ snapshots:
 
   '@types/range-parser@1.2.7': {}
 
-  '@types/react@18.3.4':
+  '@types/react@18.3.5':
     dependencies:
       '@types/prop-types': 15.7.12
       csstype: 3.1.3
@@ -7715,7 +7715,7 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.0.0
 
-  aws-cdk-lib@2.154.1(constructs@10.3.0):
+  aws-cdk-lib@2.155.0(constructs@10.3.0):
     dependencies:
       '@aws-cdk/asset-awscli-v1': 2.2.202
       '@aws-cdk/asset-kubectl-v20': 2.1.2
@@ -7723,7 +7723,7 @@ snapshots:
       '@aws-cdk/cloud-assembly-schema': 36.0.17
       constructs: 10.3.0
 
-  aws-cdk@2.154.1:
+  aws-cdk@2.155.0:
     optionalDependencies:
       fsevents: 2.3.2
 
@@ -9528,7 +9528,7 @@ snapshots:
 
   ms@2.1.3: {}
 
-  msw@2.4.0(graphql@16.9.0)(typescript@5.5.4):
+  msw@2.4.1(graphql@16.9.0)(typescript@5.5.4):
     dependencies:
       '@bundled-es-modules/cookie': 2.0.0
       '@bundled-es-modules/statuses': 1.0.1
@@ -9888,9 +9888,9 @@ snapshots:
       es-errors: 1.3.0
       set-function-name: 2.0.2
 
-  rehackt@0.1.0(@types/react@18.3.4)(react@18.3.1):
+  rehackt@0.1.0(@types/react@18.3.5)(react@18.3.1):
     optionalDependencies:
-      '@types/react': 18.3.4
+      '@types/react': 18.3.5
       react: 18.3.1
 
   relay-runtime@12.0.0(encoding@0.1.13):
