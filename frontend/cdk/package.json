@@ -17,7 +17,7 @@
     "lint-fix": "pnpm run --filter '@next-ts-cloudfront-ssg-with-backend-template/cdk' /.*:fix$/"
   },
   "devDependencies": {
-    "@types/node": "^22.5.2",
+    "@types/node": "^22.5.3",
     "aws-cdk": "^2.155.0",
     "eslint": "^9.9.1",
     "ts-node": "^10.9.2",
