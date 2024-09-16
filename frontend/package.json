@@ -22,7 +22,7 @@
   "dependencies": {
     "@apollo/client": "^3.11.8",
     "@types/node": "^22.5.5",
-    "@types/react": "^18.3.5",
+    "@types/react": "^18.3.6",
     "cross-env": "^7.0.3",
     "graphql": "^16.9.0",
     "next": "^14.2.11",
@@ -40,7 +40,7 @@
     "@graphql-typed-document-node/core": "^3.2.0",
     "@next/bundle-analyzer": "^14.2.11",
     "encoding": "^0.1.13",
-    "msw": "^2.4.6",
+    "msw": "^2.4.7",
     "rimraf": "^6.0.1"
   },
   "msw": {
