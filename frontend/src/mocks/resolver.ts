@@ -1,5 +1,5 @@
-import { graphql, HttpResponse } from "msw";
-import { QueryPokemonListDocument } from "../gql/graphql";
+import { graphql, HttpResponse } from 'msw';
+import { QueryPokemonListDocument } from '../gql/graphql';
 
 export const handlers = [
   graphql.query(QueryPokemonListDocument, () => {
@@ -7,8 +7,8 @@ export const handlers = [
       data: {
         list: [
           {
-            id: "0001",
-            name: "フシギダネ",
+            id: '0001',
+            name: 'フシギダネ',
           },
         ],
       },

@@ -1,6 +1,6 @@
-import { S3Client, GetObjectCommand } from "@aws-sdk/client-s3";
-import { GraphQLError } from "graphql";
-import { Pokemon, Resolvers } from "./generated/graphql";
+import { S3Client, GetObjectCommand } from '@aws-sdk/client-s3';
+import { GraphQLError } from 'graphql';
+import { Pokemon, Resolvers } from './generated/graphql';
 
 const S3_BUCKET_NAME = process.env.S3_BUCKET_NAME as string;
 const S3_OBJECT_KEY = process.env.S3_OBJECT_KEY as string;
@@ -27,7 +27,7 @@ export const resolvers: Resolvers = {
     list: async () => {
       const pokemons = await getPokemons();
       if (!pokemons) {
-        throw new GraphQLError("Cannot get data");
+        throw new GraphQLError('Cannot get data');
       }
       return pokemons;
     },

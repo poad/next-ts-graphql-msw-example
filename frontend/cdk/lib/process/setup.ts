@@ -1,5 +1,5 @@
-import * as childProcess from "child_process";
-import * as fs from "fs";
+import * as childProcess from 'child_process';
+import * as fs from 'fs';
 
 export const nextJsExport = ({ apiUrl }: { apiUrl: string }) => {
   [`${process.cwd()}/../.next`, `${process.cwd()}/../out`].forEach((dir) => {
@@ -9,26 +9,26 @@ export const nextJsExport = ({ apiUrl }: { apiUrl: string }) => {
       });
     }
   });
-  ["pnpm install"].forEach((cmd) => {
+  ['pnpm install'].forEach((cmd) => {
     childProcess.execSync(cmd, {
       cwd: `${process.cwd()}/../`,
-      stdio: ["ignore", "inherit", "inherit"],
+      stdio: ['ignore', 'inherit', 'inherit'],
       env: { ...process.env },
-      shell: "bash",
+      shell: 'bash',
     });
   });
 
   console.log(apiUrl);
 
-  ["pnpm build"].forEach((cmd) => {
+  ['pnpm build'].forEach((cmd) => {
     childProcess.execSync(cmd, {
       cwd: `${process.cwd()}/../`,
-      stdio: ["ignore", "inherit", "inherit"],
+      stdio: ['ignore', 'inherit', 'inherit'],
       env: {
         ...process.env,
         NEXT_PUBLIC_API_URL: apiUrl,
       },
-      shell: "bash",
+      shell: 'bash',
     });
   });
 };

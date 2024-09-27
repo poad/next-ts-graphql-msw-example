@@ -1,5 +1,5 @@
 {
-  "name": "@next-ts-cloudfront-ssg-with-backend-template/backend",
+  "name": "@next-ts-graphql-msw-example/backend",
   "version": "0.1.0",
   "bin": {
     "backend": "bin/backend.js"
@@ -9,13 +9,9 @@
     "build": "tsc",
     "watch": "tsc -w",
     "cdk": "cdk",
-    "prettier:fix": "prettier --write bin lib lambda !lambda/generated",
-    "eslint:fix": "eslint --fix '{bin,lib,lambda}/**/*.ts'",
-    "prettier:check": "prettier --check bin lib lambda !lambda/generated",
-    "eslint:check": "eslint '{bin,lib,lambda}/**/*.ts'",
-    "lint": "pnpm run --parallel --filter '@next-ts-cloudfront-ssg-with-backend-template/backend' /^.*:check$/",
-    "lint-fix": "pnpm run --filter '@next-ts-cloudfront-ssg-with-backend-template/backend' /^.*:fix$/",
-    "clean": "rimraf build",
+    "clean": "tsc --build --clean",
+    "lint-fix": "eslint --fix '{bin,lib,lambda}/**/*.ts' --ignore-pattern '**/graphql.ts'",
+    "lint": "eslint '{bin,lib,lambda}/**/*.ts' --ignore-pattern '**/graphql.ts'",
     "generate": "graphql-codegen --config codegen.yml",
     "prebuild": "pnpm generate"
   },
@@ -32,7 +28,7 @@
     "@graphql-tools/load": "^8.0.2",
     "@graphql-tools/schema": "^10.0.6",
     "@types/aws-lambda": "^8.10.145",
-    "@types/node": "^22.7.2",
+    "@types/node": "^22.7.3",
     "aws-cdk": "^2.160.0",
     "esbuild": "^0.24.0",
     "graphql-codegen-typescript-validation-schema": "^0.16.0",
