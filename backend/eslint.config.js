@@ -16,7 +16,7 @@ export default tseslint.config(
       '**/*.d.ts',
       'out',
       'cdk.out',
-      '**/graphql.ts',
+      '**/generated/**'
     ],
     ...importPlugin.flatConfigs.recommended,
     ...importPlugin.flatConfigs.typescript,
