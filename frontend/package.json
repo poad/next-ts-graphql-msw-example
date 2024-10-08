@@ -26,15 +26,15 @@
     "web-vitals": "^4.2.3"
   },
   "devDependencies": {
-    "@graphql-codegen/cli": "^5.0.2",
-    "@graphql-codegen/client-preset": "^4.3.3",
+    "@graphql-codegen/cli": "^5.0.3",
+    "@graphql-codegen/client-preset": "^4.4.0",
     "@graphql-codegen/typescript-msw": "^3.0.0",
     "@graphql-codegen/typescript-react-apollo": "^4.3.2",
     "@graphql-eslint/eslint-plugin": "^3.20.1",
     "@graphql-typed-document-node/apollo-client-3": "^1.0.0",
     "@graphql-typed-document-node/core": "^3.2.0",
     "@next/bundle-analyzer": "^14.2.14",
-    "@types/node": "^22.7.4",
+    "@types/node": "^22.7.5",
     "@types/react": "^18.3.11",
     "eslint": "^9.12.0",
     "eslint-config-import": "^0.13.0",
@@ -48,7 +48,7 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-storybook": "^0.9.0",
     "typescript": "^5.6.2",
-    "typescript-eslint": "^8.8.0"
+    "typescript-eslint": "^8.8.1"
   },
   "msw": {
     "workerDirectory": "public"
