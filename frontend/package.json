@@ -16,7 +16,7 @@
     "all": "pnpm lint && pnpm build"
   },
   "dependencies": {
-    "@apollo/client": "^3.11.9",
+    "@apollo/client": "^3.11.10",
     "cross-env": "^7.0.3",
     "graphql": "^16.9.0",
     "msw": "^2.6.4",
@@ -48,7 +48,7 @@
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-storybook": "^0.11.0",
     "typescript": "^5.6.3",
-    "typescript-eslint": "^8.13.0"
+    "typescript-eslint": "^8.14.0"
   },
   "msw": {
     "workerDirectory": "public"
