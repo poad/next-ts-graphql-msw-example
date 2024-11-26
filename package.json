@@ -18,7 +18,7 @@
     "pnpm": ">=9.1.0"
   },
   "devDependencies": {
-    "@graphql-eslint/eslint-plugin": "^3.20.1",
+    "@graphql-eslint/eslint-plugin": "^4.0.0",
     "eslint": "^9.15.0",
     "eslint-config-import": "^0.13.0",
     "eslint-config-next": "^15.0.3",
@@ -30,7 +30,7 @@
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-storybook": "^0.11.1",
-    "typescript-eslint": "^8.15.0"
+    "typescript-eslint": "^8.16.0"
   },
   "pnpm": {
     "overrides": {
