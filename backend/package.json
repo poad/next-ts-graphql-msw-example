@@ -28,7 +28,7 @@
     "@graphql-tools/load": "^8.0.6",
     "@graphql-tools/schema": "^10.0.10",
     "@types/aws-lambda": "^8.10.146",
-    "@types/node": "^22.10.0",
+    "@types/node": "^22.10.1",
     "aws-cdk": "^2.171.1",
     "esbuild": "^0.24.0",
     "graphql-codegen-typescript-validation-schema": "^0.17.0",
