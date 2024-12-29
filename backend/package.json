@@ -10,8 +10,8 @@
     "watch": "tsc -w",
     "cdk": "cdk",
     "clean": "tsc --build --clean",
-    "lint-fix": "eslint --fix '{bin,lib,lambda}/**/*.ts' --ignore-pattern '**/generated/**'",
-    "lint": "eslint '{bin,lib,lambda}/**/*.ts' --ignore-pattern '**/generated/**'",
+    "lint-fix": "eslint --fix . --ignore-pattern '{**/generated/**,**/*.d.ts,**/*.js}'",
+    "lint": "eslint . --ignore-pattern '{**/generated/**,**/*.d.ts,**/*.js}'",
     "generate": "graphql-codegen --config codegen.yml",
     "prebuild": "pnpm generate"
   },
