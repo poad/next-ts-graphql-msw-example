@@ -10,7 +10,9 @@ export default tseslint.config(
   ...tseslint.configs.stylistic,
   {
     files: [
-      '{bin,lib,lambda}/**/*.ts',
+      'bin/**/*.ts',
+      'lib/**/*.ts',
+      'lambda/**/*.ts',
     ],
     ignores: [
       '**/*.d.ts',
