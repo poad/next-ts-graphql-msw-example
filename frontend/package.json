@@ -16,7 +16,7 @@
     "all": "pnpm lint && pnpm build"
   },
   "dependencies": {
-    "@apollo/client": "^3.13.5",
+    "@apollo/client": "^3.13.6",
     "cross-env": "^7.0.3",
     "graphql": "^16.10.0",
     "msw": "^2.7.3",
@@ -35,9 +35,9 @@
     "@graphql-typed-document-node/core": "^3.2.0",
     "@next/bundle-analyzer": "^15.2.4",
     "@next/eslint-plugin-next": "^15.2.4",
-    "@types/node": "^22.13.14",
+    "@types/node": "^22.14.0",
     "@types/react": "^18.3.20",
-    "eslint": "^9.23.0",
+    "eslint": "^9.24.0",
     "eslint-config-import": "^0.13.0",
     "eslint-config-next": "^15.2.4",
     "eslint-import-resolver-typescript": "^3.10.0",
@@ -45,11 +45,11 @@
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jsx-a11y": "^6.10.2",
     "eslint-plugin-promise": "^7.2.1",
-    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-storybook": "^0.11.6",
-    "typescript": "^5.8.2",
-    "typescript-eslint": "^8.28.0"
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.29.0"
   },
   "msw": {
     "workerDirectory": "public"
